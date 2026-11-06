@@ -1,0 +1,38 @@
+# Når noen endrer malerier på GitHub: bygg og legg alt inn på serveren automatisk.
+name: Publiser malerier
+
+on:
+  push:
+    branches: [main]
+    paths:
+      - "malerier/**"
+      - "malerier.lock.json"
+      - "gamle-malerier.json"
+      - "base-resourcepack/**"
+      - "build.py"
+      - "publiser.py"
+  workflow_dispatch:
+
+# Two quick edits in a row must not restart the server twice at the same time.
+concurrency:
+  group: publiser
+  cancel-in-progress: false
+
+permissions:
+  contents: write
+
+jobs:
+  publiser:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.13"
+      - run: pip install -r requirements.txt
+      - run: |
+          git config user.name "Laksen malerier"
+          git config user.email "actions@users.noreply.github.com"
+      - run: python publiser.py
+        env:
+          PANEL_NOKKEL: ${{ secrets.PANEL_NOKKEL }}

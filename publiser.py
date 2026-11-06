@@ -7,6 +7,7 @@ Kjør:  .venv/bin/python publiser.py   (eller dobbeltklikk "Publiser malerier.co
 from __future__ import annotations
 
 import json
+import os
 import ssl
 import subprocess
 import sys
@@ -22,6 +23,15 @@ PANEL = "https://panel.spillhosting.no"
 SERVER_ID = "eb0d0174"
 GITHUB_REPO = "jntbruun/laksen-malerier"
 KEY_FILE = build.ROOT / ".panel-nokkel"
+
+
+def panel_key() -> str | None:
+    # GitHub Actions passes the key as a secret; locally it lives in .panel-nokkel.
+    if os.environ.get("PANEL_NOKKEL"):
+        return os.environ["PANEL_NOKKEL"].strip()
+    return KEY_FILE.read_text().strip() if KEY_FILE.exists() else None
+
+
 # python.org builds on macOS ship without root certificates; certifi brings its own.
 TLS = ssl.create_default_context(cafile=certifi.where())
 # Cloudflare in front of the panel blocks the default "Python-urllib" user agent (error 1010).
@@ -30,7 +40,7 @@ USER_AGENT = "laksen-malerier/1.0"
 
 def panel(method: str, path: str, body: bytes | None = None, content_type: str = "application/json") -> bytes:
     request = urllib.request.Request(f"{PANEL}/api/client/servers/{SERVER_ID}/{path}", data=body, method=method)
-    request.add_header("Authorization", f"Bearer {KEY_FILE.read_text().strip()}")
+    request.add_header("Authorization", f"Bearer {panel_key()}")
     request.add_header("Accept", "application/json")
     request.add_header("User-Agent", USER_AGENT)
     if body is not None:
@@ -69,7 +79,7 @@ def git(*args: str) -> str:
 
 
 def main() -> None:
-    if not KEY_FILE.exists():
+    if not panel_key():
         sys.exit("Mangler .panel-nokkel. Lag en API-nøkkel i panelet (Account -> API Credentials) "
                  "og lim den inn i en fil som heter .panel-nokkel i denne mappen.")
     build.main()
@@ -78,6 +88,8 @@ def main() -> None:
     if git("status", "--porcelain", "--", "malerier", "malerier.lock.json", "dist", "base-resourcepack"):
         git("commit", "-m", "Oppdater malerier")
     print("Pusher til GitHub ...")
+    # Someone may have pushed while we were building (another edit on GitHub, or the Action).
+    git("pull", "--rebase", "-q")
     git("push", "-q")
 
     # A commit-pinned URL never changes content, so GitHub's 5-minute cache can't serve
