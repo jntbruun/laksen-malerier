@@ -5,41 +5,36 @@
     "sha1": "1308f47197c3212a9948b8d4fa88296f08633932"
   },
   {
+    "id": "splotch_of_paint:colourful_feathers",
+    "file": "Adalbert Waagen/Hunting in the Alps (2x3).png",
+    "sha1": "2028de8ff489b2f72aeee8ddb264d66aae8611dc"
+  },
+  {
+    "id": "splotch_of_paint:eastern_vistas",
+    "file": "Adolf Tidemand/Norsk juleskik (3x3).png",
+    "sha1": "9525220a9ff65198ffe6b1f812dfd727fd82fe0c",
+    "aliases": [
+      {
+        "id": "splotch_of_paint:wet_pastures",
+        "width": 2,
+        "height": 2
+      },
+      {
+        "id": "splotch_of_paint:wonderous_beyond",
+        "width": 1,
+        "height": 1
+      }
+    ]
+  },
+  {
     "id": "minecraft:orb",
     "file": "Brigaden (4x4).png",
     "sha1": "12e3c7161b018940ba40a88c24556a8f45ccf312"
   },
   {
-    "id": "splotch_of_paint:afternoon_dance",
-    "file": "Ekorn i snøen (3x2).png",
-    "sha1": "85a883af4c0b4643f951873fa809f51e75864c35"
-  },
-  {
-    "id": "splotch_of_paint:colourful_feathers",
-    "file": "Fjelldalen (2x3).png",
-    "sha1": "2028de8ff489b2f72aeee8ddb264d66aae8611dc"
-  },
-  {
-    "id": "splotch_of_paint:the_shroom",
-    "file": "Fjellrev (3x3).png",
-    "sha1": "e1f2e019ace317168d6168150b39412d1155bd48",
-    "aliases": [
-      {
-        "id": "splotch_of_paint:bygone_glyphs",
-        "width": 2,
-        "height": 2
-      }
-    ]
-  },
-  {
     "id": "repo_paintings:armadillo",
     "file": "Flynderøy kommune (2x1).png",
     "sha1": "2443e3656b1b477b813e15dcde1d5c97412b9929"
-  },
-  {
-    "id": "splotch_of_paint:blooming_chorus_field",
-    "file": "Fossen ved hytta (2x3).png",
-    "sha1": "8c9d0b73dddac0822ac728ef0559b8112482f513"
   },
   {
     "id": "splotch_of_paint:lively_canopy",
@@ -59,6 +54,18 @@
     "sha1": "87ccc8a52c2a431c84579281d8b1af669793a6a7"
   },
   {
+    "id": "splotch_of_paint:the_shroom",
+    "file": "Greg Beecham/Gladness of Heart (3x3).png",
+    "sha1": "e1f2e019ace317168d6168150b39412d1155bd48",
+    "aliases": [
+      {
+        "id": "splotch_of_paint:bygone_glyphs",
+        "width": 2,
+        "height": 2
+      }
+    ]
+  },
+  {
     "id": "repo_paintings:beautyful",
     "file": "Gustav Klimt/Kysset (1x2).png",
     "sha1": "d8cc6cff52cd92d567cccd9dc338174512e9d377"
@@ -67,6 +74,28 @@
     "id": "repo_paintings:dog",
     "file": "Gustav Klimt/Kysset (utsnitt) (1x1).png",
     "sha1": "4b6e4ee695fca9e9f6680d32a61cdf365d96f414"
+  },
+  {
+    "id": "splotch_of_paint:house_away_from_sol",
+    "file": "Hans Dahl/Siste stråler (3x2).png",
+    "sha1": "1112f828075db1f8d47cfba19ebc877e658d2347"
+  },
+  {
+    "id": "splotch_of_paint:blooming_chorus_field",
+    "file": "Hans Gude/Foss i Hallingdal (2x3).png",
+    "sha1": "8c9d0b73dddac0822ac728ef0559b8112482f513"
+  },
+  {
+    "id": "splotch_of_paint:frozen_bones",
+    "file": "Hans Gude/Fra Vossevangen (3x2).png",
+    "sha1": "aa7f91ef8f71d377257b625fcbeb876c849aae20",
+    "aliases": [
+      {
+        "id": "minecraft:skeleton",
+        "width": 4,
+        "height": 3
+      }
+    ]
   },
   {
     "id": "repo_paintings:bananas",
@@ -109,9 +138,9 @@
     "sha1": "0867b5a9d72e01cd5a384cc8cb43b129b5d90342"
   },
   {
-    "id": "splotch_of_paint:house_away_from_sol",
-    "file": "Jente i lia (3x2).png",
-    "sha1": "1112f828075db1f8d47cfba19ebc877e658d2347"
+    "id": "splotch_of_paint:challenging_the_storm",
+    "file": "Johan Christian Dahl/Fra Stalheim (3x2).png",
+    "sha1": "e158e9eafd994c78ecbd611ab9cc3e6d9bafd77a"
   },
   {
     "id": "splotch_of_paint:an_evening_lightshow",
@@ -211,14 +240,31 @@
     ]
   },
   {
+    "id": "splotch_of_paint:never_returning",
+    "file": "Norbertine von Bresslern-Roth/Snow leopard (3x3).png",
+    "sha1": "220355bba45c773184905c42f17193f11eb1c38e",
+    "aliases": [
+      {
+        "id": "splotch_of_paint:classic_fruit_bowl",
+        "width": 2,
+        "height": 2
+      },
+      {
+        "id": "splotch_of_paint:heavy_is_the_crown",
+        "width": 1,
+        "height": 1
+      }
+    ]
+  },
+  {
+    "id": "splotch_of_paint:woodpecker_bird",
+    "file": "Paul Baudry/Charlotte Corday (2x3).png",
+    "sha1": "506c7ea217acc3bd2f3809571e5e4e51c1103c0a"
+  },
+  {
     "id": "splotch_of_paint:starry_barrens",
     "file": "Portrett (3x2).png",
     "sha1": "a13a91e98beb80efd6ae410e7b329a51d75e4a51"
-  },
-  {
-    "id": "splotch_of_paint:challenging_the_storm",
-    "file": "Regnbue over dalen (3x2).png",
-    "sha1": "e158e9eafd994c78ecbd611ab9cc3e6d9bafd77a"
   },
   {
     "id": "minecraft:sea",
@@ -236,23 +282,6 @@
     "sha1": "2fa99bdbdc64e6b7bbb2ce39494d6ed9b6997d90"
   },
   {
-    "id": "splotch_of_paint:never_returning",
-    "file": "Snøleopardens angrep (3x3).png",
-    "sha1": "220355bba45c773184905c42f17193f11eb1c38e",
-    "aliases": [
-      {
-        "id": "splotch_of_paint:classic_fruit_bowl",
-        "width": 2,
-        "height": 2
-      },
-      {
-        "id": "splotch_of_paint:heavy_is_the_crown",
-        "width": 1,
-        "height": 1
-      }
-    ]
-  },
-  {
     "id": "splotch_of_paint:old_road",
     "file": "Solnedgang fra tårnet (4x2).png",
     "sha1": "df8f6fe114c8780aae95c0134cb79865025bc0d6"
@@ -263,23 +292,6 @@
     "sha1": "1778995bfcaa5d973ba42dda77958855a4306bdd"
   },
   {
-    "id": "splotch_of_paint:frozen_bones",
-    "file": "Sommer i fjellet (3x2).png",
-    "sha1": "aa7f91ef8f71d377257b625fcbeb876c849aae20",
-    "aliases": [
-      {
-        "id": "minecraft:skeleton",
-        "width": 4,
-        "height": 3
-      }
-    ]
-  },
-  {
-    "id": "splotch_of_paint:woodpecker_bird",
-    "file": "Sorg (2x3).png",
-    "sha1": "506c7ea217acc3bd2f3809571e5e4e51c1103c0a"
-  },
-  {
     "id": "repo_paintings:burning_swamp",
     "file": "Tempelet i høstskogen (4x2).png",
     "sha1": "9884c5d7ff16d46bbb9a1eca39a2378e89f9ffce"
@@ -288,6 +300,11 @@
     "id": "minecraft:fighters",
     "file": "Tempelet ved obelisken (4x2).png",
     "sha1": "f02c7303e5f798339890e865e0cf9ece94691456"
+  },
+  {
+    "id": "splotch_of_paint:cozy_bay",
+    "file": "Theodor Kittelsen/Gutt på hvit hest (3x2).png",
+    "sha1": "7ade10557d7bda71d7571a024273cbeb0189b84c"
   },
   {
     "id": "splotch_of_paint:islands_in_the_sky",
@@ -302,9 +319,16 @@
     ]
   },
   {
-    "id": "splotch_of_paint:cozy_bay",
-    "file": "Theodor Kittelsen/Nøkken som hvit hest (3x2).png",
-    "sha1": "7ade10557d7bda71d7571a024273cbeb0189b84c"
+    "id": "splotch_of_paint:in_the_heart_of_the_savanna",
+    "file": "Theodor Kittelsen/Langt, langt borte saa han noget lyse og glitre (3x2).png",
+    "sha1": "753ee6edb46247e072cb7e55537454dba55cea99",
+    "aliases": [
+      {
+        "id": "splotch_of_paint:tree_of_serenity",
+        "width": 4,
+        "height": 3
+      }
+    ]
   },
   {
     "id": "splotch_of_paint:on_the_bones_of_colossi",
@@ -319,21 +343,14 @@
     ]
   },
   {
+    "id": "splotch_of_paint:afternoon_dance",
+    "file": "Theodor Kittelsen/Tre ekorn i flukt (3x2).png",
+    "sha1": "85a883af4c0b4643f951873fa809f51e75864c35"
+  },
+  {
     "id": "minecraft:creebet",
     "file": "Torskland kommune (2x1).png",
     "sha1": "31bd23df0ed6858aa15eba662fd0aa5926a417bf"
-  },
-  {
-    "id": "splotch_of_paint:in_the_heart_of_the_savanna",
-    "file": "Vandreren (3x2).png",
-    "sha1": "753ee6edb46247e072cb7e55537454dba55cea99",
-    "aliases": [
-      {
-        "id": "splotch_of_paint:tree_of_serenity",
-        "width": 4,
-        "height": 3
-      }
-    ]
   },
   {
     "id": "minecraft:changing",
@@ -344,23 +361,6 @@
     "id": "minecraft:donkey_kong",
     "file": "Vidda (4x3).png",
     "sha1": "905182ae11e9d43b89e5c75a80c7031fb29819c1"
-  },
-  {
-    "id": "splotch_of_paint:eastern_vistas",
-    "file": "Vinter på tunet (3x3).png",
-    "sha1": "9525220a9ff65198ffe6b1f812dfd727fd82fe0c",
-    "aliases": [
-      {
-        "id": "splotch_of_paint:wet_pastures",
-        "width": 2,
-        "height": 2
-      },
-      {
-        "id": "splotch_of_paint:wonderous_beyond",
-        "width": 1,
-        "height": 1
-      }
-    ]
   },
   {
     "id": "minecraft:match",
