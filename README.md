@@ -7,10 +7,16 @@ Egne malerier på Laksen-serveren. Legg et vanlig maleri i en **stonecutter** og
 1. Slipp bildet i `malerier/`. **Filnavnet blir navnet på maleriet.**
 2. Vil du stå som kunstner: legg det i en undermappe med navnet ditt, f.eks. `malerier/Jason/Laksen.png`.
 3. Størrelse velges automatisk (lengste side 4 blokker). Vil du bestemme selv: `Laksen (3x2).png` = 3 bredt, 2 høyt. Maks 16x16.
-4. Dobbeltklikk **Bygg malerier.command** (eller `.venv/bin/python build.py`).
-5. Last opp de to filene fra `dist/` til serveren (se under) og restart.
+4. Dobbeltklikk **Publiser malerier.command**. Den bygger, pusher til GitHub, laster opp datapacken, oppdaterer `server.properties` og restarter serveren.
+
+Vil du bare se resultatet lokalt først: **Bygg malerier.command**.
 
 Bilder blir beskåret fra midten til riktig format, og skalert ned til 128 px per blokk. Bruk png eller jpg (ikke HEIC).
+
+### Første gang på en ny maskin
+
+1. `git clone https://github.com/jntbruun/laksen-malerier`
+2. Lag en API-nøkkel i [panelet](https://panel.spillhosting.no/account/api) og lim den inn i en fil `.panel-nokkel` i mappen. Den committes aldri.
 
 ## Endre navn eller bilde
 
@@ -20,13 +26,13 @@ Bilder blir beskåret fra midten til riktig format, og skalert ned til 128 px pe
 
 `malerier.lock.json` husker hvilket bilde som er hvilket maleri. Ikke slett den, og commit den sammen med bildene.
 
-## Hva bygget lager
+## Hvor ting ligger
 
 | Fil | Hvor |
 | --- | --- |
 | `dist/laksen-malerier-datapack.zip` | `world/datapacks/` på serveren |
-| `dist/laksen-ressurspakke.zip` | Resource pack-URL i `server.properties` |
-| `dist/ressurspakke-sha1.txt` | `resource-pack-sha1` i `server.properties` |
+| `dist/laksen-ressurspakke.zip` | GitHub, låst til en commit. `resource-pack` i `server.properties` peker dit |
+| `dist/ressurspakke-sha1.txt` | `resource-pack-sha1` i `server.properties`. Uten den henter ikke klientene ny pakke |
 
 Ressurspakken er hele Laksen-pakken (`base-resourcepack/`) pluss maleriene. Endrer dere noe annet i pakken (blader osv.), gjør det i `base-resourcepack/`.
 
