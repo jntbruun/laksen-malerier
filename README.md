@@ -11,7 +11,7 @@ Egne malerier på Laksen-serveren. Legg et vanlig maleri i en **stonecutter** og
 
 Vil du bare se resultatet lokalt først: **Bygg malerier.command**.
 
-Bilder blir beskåret fra midten til riktig format, og skalert ned til 128 px per blokk. Bruk png eller jpg (ikke HEIC).
+Bilder strekkes til formatet (ingenting kuttes bort) og skaleres ned til 128 px per blokk. Bruk png eller jpg (ikke HEIC).
 
 ### Første gang på en ny maskin
 

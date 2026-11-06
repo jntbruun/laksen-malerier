@@ -123,18 +123,49 @@ def split_id(painting_id: str) -> tuple[str, str]:
     return namespace, path
 
 
-def render_texture(painting: dict) -> bytes:
+def render_texture(painting: dict) -> Image.Image:
     with Image.open(painting["path"]) as source:
         image = ImageOps.exif_transpose(source).convert("RGB")
     width, height = painting["size"] or auto_size(*image.size)
     if not (1 <= width <= MAX_SIDE and 1 <= height <= MAX_SIDE):
         sys.exit(f"FEIL: {painting['file']}: størrelse {width}x{height} er utenfor 1-{MAX_SIDE} blokker.")
     painting["width"], painting["height"] = width, height
-    # Crop instead of stretch: photos with a slightly different aspect ratio keep their proportions.
-    fitted = ImageOps.fit(image, (width * PX_PER_BLOCK, height * PX_PER_BLOCK), Image.Resampling.LANCZOS)
+    # Stretch, never crop: nothing in the picture disappears, and it matches how Minecraft drew the old ones.
+    return image.resize((width * PX_PER_BLOCK, height * PX_PER_BLOCK), Image.Resampling.LANCZOS)
+
+
+ICON_SIZE = 64
+FRAME_COLOR = (92, 60, 32, 255)
+
+
+def render_icon(texture: Image.Image, width: int, height: int) -> bytes:
+    """Square item icon: the painting in its own proportions, in a thin wooden frame."""
+    longest = ICON_SIZE - 4
+    frame_w = longest if width >= height else max(8, round(longest * width / height))
+    frame_h = longest if height >= width else max(8, round(longest * height / width))
+    framed = Image.new("RGBA", (frame_w, frame_h), FRAME_COLOR)
+    framed.paste(texture.resize((frame_w - 4, frame_h - 4), Image.Resampling.LANCZOS), (2, 2))
+    icon = Image.new("RGBA", (ICON_SIZE, ICON_SIZE), (0, 0, 0, 0))
+    icon.paste(framed, ((ICON_SIZE - frame_w) // 2, (ICON_SIZE - frame_h) // 2))
+    return png_bytes(icon)
+
+
+def png_bytes(image: Image.Image) -> bytes:
     buffer = io.BytesIO()
-    fitted.save(buffer, "PNG", optimize=True)
+    image.save(buffer, "PNG", optimize=True)
     return buffer.getvalue()
+
+
+def stonecutter_entries(paintings: list[dict]) -> list[tuple[str, str, int, int, dict]]:
+    """(variant id, recipe name, width, height, painting) for every painting with its own picture,
+    including the old duplicate ids, which are separate paintings with their own size."""
+    entries = []
+    for p in paintings:
+        entries.append((p["id"], slugify(p["title"]), p["width"], p["height"], p))
+        for alias in p["aliases"]:
+            entries.append((alias["id"], f"{slugify(p['title'])}_{alias['width']}x{alias['height']}",
+                            alias["width"], alias["height"], p))
+    return entries
 
 
 def write_file(archive: zipfile.ZipFile, name: str, data: bytes | str) -> None:
@@ -186,18 +217,19 @@ def build_datapack(paintings: list[dict], old_variants: dict) -> None:
                 alias_namespace, alias_path = split_id(alias["id"])
                 write_json(archive, f"data/{alias_namespace}/painting_variant/{alias_path}.json",
                            dict(variant, width=alias["width"], height=alias["height"]))
-            # Named after the title: the stonecutter lists recipes in id order, so this keeps it alphabetical.
-            recipe_name, n = slugify(p["title"]), 2
-            while recipe_name in recipe_names:
-                recipe_name, n = f"{slugify(p['title'])}_{n}", n + 1
-            recipe_names.add(recipe_name)
-            write_json(archive, f"data/{NAMESPACE}/recipe/maleri/{recipe_name}.json", {
+        # Recipe ids follow the title: the stonecutter lists recipes in id order, so this keeps it alphabetical.
+        for variant_id, recipe_name, _, _, _ in stonecutter_entries(paintings):
+            name, n = recipe_name, 2
+            while name in recipe_names:
+                name, n = f"{recipe_name}_{n}", n + 1
+            recipe_names.add(name)
+            write_json(archive, f"data/{NAMESPACE}/recipe/maleri/{name}.json", {
                 "type": "minecraft:stonecutting",
                 "ingredient": "minecraft:painting",
                 "result": {
                     "id": "minecraft:painting",
                     "count": 1,
-                    "components": {"minecraft:painting/variant": p["id"]},
+                    "components": {"minecraft:painting/variant": variant_id},
                 },
             })
         ids = [p["id"] for p in paintings]
@@ -206,14 +238,32 @@ def build_datapack(paintings: list[dict], old_variants: dict) -> None:
                    {"replace": ONLY_OWN_PAINTINGS_WHEN_RANDOM, "values": ids})
 
 
-def build_resource_pack(textures: dict[str, bytes]) -> None:
+def build_resource_pack(paintings: list[dict], textures: dict[str, Image.Image]) -> None:
     with zipfile.ZipFile(RESOURCE_PACK_ZIP, "w", zipfile.ZIP_DEFLATED) as archive:
         for path in sorted(BASE_RESOURCE_PACK.rglob("*")):
             if path.is_file() and path.name != ".DS_Store":
                 write_file(archive, path.relative_to(BASE_RESOURCE_PACK).as_posix(), path.read_bytes())
-        for painting_id, png in sorted(textures.items()):
+        for painting_id, texture in sorted(textures.items()):
             namespace, path = split_id(painting_id)
-            write_file(archive, f"assets/{namespace}/textures/painting/{path}.png", png)
+            write_file(archive, f"assets/{namespace}/textures/painting/{path}.png", png_bytes(texture))
+
+        # Each painting item shows its own picture, so the stonecutter is a visual picker.
+        cases = []
+        for variant_id, _, width, height, p in stonecutter_entries(paintings):
+            namespace, path = split_id(variant_id)
+            icon = f"maleri/{namespace}/{path}"
+            write_file(archive, f"assets/{NAMESPACE}/textures/item/{icon}.png",
+                       render_icon(textures[p["id"]], width, height))
+            write_json(archive, f"assets/{NAMESPACE}/models/item/{icon}.json",
+                       {"parent": "minecraft:item/generated", "textures": {"layer0": f"{NAMESPACE}:item/{icon}"}})
+            cases.append({"when": variant_id, "model": {"type": "minecraft:model", "model": f"{NAMESPACE}:item/{icon}"}})
+        write_json(archive, "assets/minecraft/items/painting.json", {"model": {
+            "type": "minecraft:select",
+            "property": "minecraft:component",
+            "component": "minecraft:painting/variant",
+            "cases": cases,
+            "fallback": {"type": "minecraft:model", "model": "minecraft:item/painting"},
+        }})
 
 
 def main() -> None:
@@ -229,7 +279,7 @@ def main() -> None:
     old_variants = json.loads(OLD_VARIANTS_FILE.read_text()) if OLD_VARIANTS_FILE.exists() else {}
     check_old_sizes(paintings, old_variants)
     build_datapack(paintings, old_variants)
-    build_resource_pack(textures)
+    build_resource_pack(paintings, textures)
 
     resource_sha1 = file_sha1(RESOURCE_PACK_ZIP)
     (DIST / "ressurspakke-sha1.txt").write_text(resource_sha1 + "\n")
