@@ -13,6 +13,7 @@ import subprocess
 import sys
 import urllib.request
 import uuid
+from datetime import datetime
 from pathlib import Path
 
 import certifi
@@ -51,13 +52,17 @@ def panel(method: str, path: str, body: bytes | None = None, content_type: str =
 
 def remove_unzipped_copies() -> None:
     """Someone unzipping the pack in the panel leaves a folder that Minecraft loads next to the zip,
-    and the stale folder can win. GitHub is the source of truth, so the folder goes."""
+    and the stale folder can win. GitHub is the source of truth, so the folder is moved out of the way
+    (into a backup folder, not deleted: the panel account has no delete permission, and edits survive)."""
     listing = json.loads(panel("GET", "files/list?directory=%2Fworld%2Fdatapacks"))["data"]
     stray = [f["attributes"]["name"] for f in listing
              if not f["attributes"]["is_file"] and f["attributes"]["name"].startswith(build.DATAPACK_ZIP.stem)]
     if stray:
-        print(f"Fjerner utpakket kopi på serveren: {', '.join(stray)}")
-        panel("POST", "files/delete", json.dumps({"root": "/world/datapacks", "files": stray}).encode())
+        backup = f"datapack-backup-utpakket-{datetime.now():%Y-%m-%d-%H%M%S}"
+        print(f"Flytter utpakket kopi på serveren til /{backup}: {', '.join(stray)}")
+        panel("POST", "files/create-folder", json.dumps({"root": "/", "name": backup}).encode())
+        moves = [{"from": f"world/datapacks/{name}", "to": f"{backup}/{name}"} for name in stray]
+        panel("PUT", "files/rename", json.dumps({"root": "/", "files": moves}).encode())
 
 
 def upload_datapack() -> None:
