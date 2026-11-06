@@ -18,6 +18,15 @@ Bilder strekkes til formatet (ingenting kuttes bort) og skaleres ned til 128 px 
 1. `git clone https://github.com/jntbruun/laksen-malerier`
 2. Lag en API-nøkkel i [panelet](https://panel.spillhosting.no/account/api) og lim den inn i en fil `.panel-nokkel` i mappen. Den committes aldri.
 
+## Rett på GitHub (uten å installere noe)
+
+Alt som endres i `malerier/` på GitHub publiseres automatisk til serveren (Actions-fanen viser status, tar ca. ett minutt + restart).
+
+- **Legge til:** åpne `malerier/` på GitHub → Add file → Upload files.
+- **Gi nytt navn:** trykk `.` i repoet (åpner github.dev) → høyreklikk bildet → Rename → commit i Source Control-fanen.
+
+Jobber du lokalt etterpå: kjør `git pull` først, Actionen committer tilbake.
+
 ## Endre navn eller bilde
 
 - **Gi nytt navn:** bare endre filnavnet. Malerier som allerede henger oppdateres.
