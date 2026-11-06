@@ -7,11 +7,14 @@ Kjør:  .venv/bin/python publiser.py   (eller dobbeltklikk "Publiser malerier.co
 from __future__ import annotations
 
 import json
+import ssl
 import subprocess
 import sys
 import urllib.request
 import uuid
 from pathlib import Path
+
+import certifi
 
 import build
 
@@ -19,6 +22,8 @@ PANEL = "https://panel.spillhosting.no"
 SERVER_ID = "eb0d0174"
 GITHUB_REPO = "jntbruun/laksen-malerier"
 KEY_FILE = build.ROOT / ".panel-nokkel"
+# python.org builds on macOS ship without root certificates; certifi brings its own.
+TLS = ssl.create_default_context(cafile=certifi.where())
 
 
 def panel(method: str, path: str, body: bytes | None = None, content_type: str = "application/json") -> bytes:
@@ -27,7 +32,7 @@ def panel(method: str, path: str, body: bytes | None = None, content_type: str =
     request.add_header("Accept", "application/json")
     if body is not None:
         request.add_header("Content-Type", content_type)
-    with urllib.request.urlopen(request) as response:
+    with urllib.request.urlopen(request, context=TLS) as response:
         return response.read()
 
 
@@ -39,7 +44,7 @@ def upload_datapack() -> None:
     body += build.DATAPACK_ZIP.read_bytes() + f"\r\n--{boundary}--\r\n".encode()
     request = urllib.request.Request(f"{upload_url}&directory=/world/datapacks", data=body, method="POST")
     request.add_header("Content-Type", f"multipart/form-data; boundary={boundary}")
-    urllib.request.urlopen(request).read()
+    urllib.request.urlopen(request, context=TLS).read()
 
 
 def point_server_at(pack_url: str, pack_sha1: str) -> None:

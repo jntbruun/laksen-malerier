@@ -137,8 +137,15 @@ def render_texture(painting: dict) -> bytes:
     return buffer.getvalue()
 
 
+def write_file(archive: zipfile.ZipFile, name: str, data: bytes | str) -> None:
+    # Fixed timestamp: identical input gives an identical zip, so the sha1 only changes when content does.
+    info = zipfile.ZipInfo(name, date_time=(2020, 1, 1, 0, 0, 0))
+    info.compress_type = zipfile.ZIP_DEFLATED
+    archive.writestr(info, data)
+
+
 def write_json(archive: zipfile.ZipFile, name: str, data: dict) -> None:
-    archive.writestr(name, json.dumps(data, indent=2, ensure_ascii=False))
+    write_file(archive, name, json.dumps(data, indent=2, ensure_ascii=False))
 
 
 def check_old_sizes(paintings: list[dict], old_variants: dict) -> None:
@@ -203,10 +210,10 @@ def build_resource_pack(textures: dict[str, bytes]) -> None:
     with zipfile.ZipFile(RESOURCE_PACK_ZIP, "w", zipfile.ZIP_DEFLATED) as archive:
         for path in sorted(BASE_RESOURCE_PACK.rglob("*")):
             if path.is_file() and path.name != ".DS_Store":
-                archive.write(path, path.relative_to(BASE_RESOURCE_PACK).as_posix())
-        for painting_id, png in textures.items():
+                write_file(archive, path.relative_to(BASE_RESOURCE_PACK).as_posix(), path.read_bytes())
+        for painting_id, png in sorted(textures.items()):
             namespace, path = split_id(painting_id)
-            archive.writestr(f"assets/{namespace}/textures/painting/{path}.png", png)
+            write_file(archive, f"assets/{namespace}/textures/painting/{path}.png", png)
 
 
 def main() -> None:
