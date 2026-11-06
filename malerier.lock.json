@@ -36,6 +36,18 @@
     "rute": 0
   },
   {
+    "id": "laksen:ubudne_gjester",
+    "file": "Edvard Munch/Ubudne Gjester (1x1).png",
+    "sha1": "4bdcb4f5d75f4abaa296e10c0f7e2fcba7246dc1",
+    "rute": 0
+  },
+  {
+    "id": "laksen:ubudne_gjester_2",
+    "file": "Edvard Munch/Ubudne Gjester (3x2).png",
+    "sha1": "72a5274c786abf19051645838833f02dae06a960",
+    "rute": 34
+  },
+  {
     "id": "repo_paintings:armadillo",
     "file": "Flynderøy kommune (2x1).png",
     "sha1": "2443e3656b1b477b813e15dcde1d5c97412b9929",
