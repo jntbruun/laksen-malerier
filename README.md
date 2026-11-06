@@ -27,6 +27,8 @@ Alt som endres i `malerier/` på GitHub publiseres automatisk til serveren (Acti
 
 Jobber du lokalt etterpå: kjør `git pull` først, Actionen committer tilbake.
 
+**Ikke endre i datapacken på Spillhosting.** Den bygges fra GitHub, og publiseringen sletter utpakkede kopier. Navn endres i `malerier/`.
+
 ## Endre navn eller bilde
 
 - **Gi nytt navn:** bare endre filnavnet. Malerier som allerede henger oppdateres.

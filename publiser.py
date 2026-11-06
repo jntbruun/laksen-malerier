@@ -49,6 +49,17 @@ def panel(method: str, path: str, body: bytes | None = None, content_type: str =
         return response.read()
 
 
+def remove_unzipped_copies() -> None:
+    """Someone unzipping the pack in the panel leaves a folder that Minecraft loads next to the zip,
+    and the stale folder can win. GitHub is the source of truth, so the folder goes."""
+    listing = json.loads(panel("GET", "files/list?directory=%2Fworld%2Fdatapacks"))["data"]
+    stray = [f["attributes"]["name"] for f in listing
+             if not f["attributes"]["is_file"] and f["attributes"]["name"].startswith(build.DATAPACK_ZIP.stem)]
+    if stray:
+        print(f"Fjerner utpakket kopi på serveren: {', '.join(stray)}")
+        panel("POST", "files/delete", json.dumps({"root": "/world/datapacks", "files": stray}).encode())
+
+
 def upload_datapack() -> None:
     upload_url = json.loads(panel("GET", "files/upload"))["attributes"]["url"]
     boundary = uuid.uuid4().hex
@@ -117,6 +128,7 @@ def main() -> None:
     pack_sha1 = (build.DIST / "ressurspakke-sha1.txt").read_text().strip()
 
     print("Laster opp datapack ...")
+    remove_unzipped_copies()
     upload_datapack()
     print("Oppdaterer server.properties ...")
     point_server_at(pack_url, pack_sha1)
