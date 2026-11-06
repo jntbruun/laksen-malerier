@@ -43,7 +43,7 @@ DIST = ROOT / "dist"
 DATAPACK_ZIP = DIST / "laksen-malerier-datapack.zip"
 RESOURCE_PACK_ZIP = DIST / "laksen-ressurspakke.zip"
 
-SIZE_SUFFIX = re.compile(r"^(?P<title>.*?)\s*\((?P<w>\d+)\s*[xX×]\s*(?P<h>\d+)\)$")
+SIZE_SUFFIX = re.compile(r"^(?P<title>.*?)\s*\(\s*(?P<w>\d+)\s*[xX×]\s*(?P<h>\d+)\s*\)$")
 
 
 def slugify(text: str) -> str:

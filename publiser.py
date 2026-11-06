@@ -78,19 +78,37 @@ def git(*args: str) -> str:
     return subprocess.run(["git", *args], cwd=build.ROOT, check=True, capture_output=True, text=True).stdout.strip()
 
 
+GENERATED = ["malerier.lock.json", "dist"]
+IN_GITHUB_ACTIONS = bool(os.environ.get("GITHUB_ACTIONS"))
+
+
+def build_and_push() -> None:
+    """Build from the newest sources and push. If someone pushed while we built, the generated
+    files (lock, zips) conflict; in GitHub Actions we throw our build away and rebuild on top."""
+    for attempt in range(3):
+        git("pull", "--rebase", "--autostash", "-q")
+        build.main()
+        git("add", "-A", "malerier", "gamle-malerier.json", "base-resourcepack", *GENERATED)
+        if git("status", "--porcelain", "--", "malerier", "base-resourcepack", *GENERATED):
+            git("commit", "-m", "Oppdater malerier")
+        print("Pusher til GitHub ...")
+        try:
+            git("push", "-q")
+            return
+        except subprocess.CalledProcessError:
+            if not IN_GITHUB_ACTIONS:
+                sys.exit("Noen pushet samtidig. Kjør publiseringen på nytt.")
+            print("Noen pushet samtidig, bygger på nytt ...")
+            git("fetch", "-q")
+            git("reset", "--hard", "-q", "origin/main")
+    sys.exit("Fikk ikke pushet etter tre forsøk.")
+
+
 def main() -> None:
     if not panel_key():
         sys.exit("Mangler .panel-nokkel. Lag en API-nøkkel i panelet (Account -> API Credentials) "
                  "og lim den inn i en fil som heter .panel-nokkel i denne mappen.")
-    build.main()
-
-    git("add", "-A", "malerier", "malerier.lock.json", "dist", "gamle-malerier.json", "base-resourcepack")
-    if git("status", "--porcelain", "--", "malerier", "malerier.lock.json", "dist", "base-resourcepack"):
-        git("commit", "-m", "Oppdater malerier")
-    print("Pusher til GitHub ...")
-    # Someone may have pushed while we were building (another edit on GitHub, or the Action).
-    git("pull", "--rebase", "-q")
-    git("push", "-q")
+    build_and_push()
 
     # A commit-pinned URL never changes content, so GitHub's 5-minute cache can't serve
     # a stale zip that fails the sha1 check and kicks players.
