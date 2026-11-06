@@ -1,0 +1,365 @@
+[
+  {
+    "id": "splotch_of_paint:afternoon_dance",
+    "file": "Afternoon dance (3x2).png",
+    "sha1": "85a883af4c0b4643f951873fa809f51e75864c35"
+  },
+  {
+    "id": "minecraft:alban",
+    "file": "Alban (1x1).png",
+    "sha1": "b130da0080f403e83956e7e5fd8e9a93909c72b9"
+  },
+  {
+    "id": "splotch_of_paint:alluring_allurestems",
+    "file": "Alluring allurestems (2x3).png",
+    "sha1": "21f07b3f08727090e2361c4d9db93fe4f6490606"
+  },
+  {
+    "id": "splotch_of_paint:an_evening_lightshow",
+    "file": "An evening lightshow (4x2).png",
+    "sha1": "4abb0c0e82ad7604382f86a94d523524d8677ee4"
+  },
+  {
+    "id": "repo_paintings:anger",
+    "file": "Anger (1x2).png",
+    "sha1": "c7c194bf7af13f3966bbd3f67137cebe9e58d83a"
+  },
+  {
+    "id": "repo_paintings:apples",
+    "file": "Apples (2x1).png",
+    "sha1": "425b190f298d398a7374282b68c2caea28d24583"
+  },
+  {
+    "id": "repo_paintings:armadillo",
+    "file": "Armadillo (2x1).png",
+    "sha1": "2443e3656b1b477b813e15dcde1d5c97412b9929"
+  },
+  {
+    "id": "minecraft:aztec",
+    "file": "Aztec (1x1).png",
+    "sha1": "987d1e4fb1cf2469990e03dba951aea5b47cda58"
+  },
+  {
+    "id": "minecraft:aztec2",
+    "file": "Aztec2 (1x1).png",
+    "sha1": "897caf1e864823e0adcef4d1513e183ba088bf67",
+    "aliases": [
+      {
+        "id": "minecraft:bouquet",
+        "width": 3,
+        "height": 3
+      },
+      {
+        "id": "minecraft:pointer",
+        "width": 4,
+        "height": 4
+      }
+    ]
+  },
+  {
+    "id": "repo_paintings:bananas",
+    "file": "Bananas (2x1).png",
+    "sha1": "f76973eef39ffa4ef1c378c9377891f821227be4"
+  },
+  {
+    "id": "repo_paintings:beautyful",
+    "file": "Beautyful (1x2).png",
+    "sha1": "d8cc6cff52cd92d567cccd9dc338174512e9d377"
+  },
+  {
+    "id": "repo_paintings:beige_abstraction",
+    "file": "Beige abstraction (2x1).png",
+    "sha1": "0867b5a9d72e01cd5a384cc8cb43b129b5d90342"
+  },
+  {
+    "id": "splotch_of_paint:blooming_chorus_field",
+    "file": "Blooming chorus field (2x3).png",
+    "sha1": "8c9d0b73dddac0822ac728ef0559b8112482f513"
+  },
+  {
+    "id": "minecraft:bomb",
+    "file": "Bomb (1x1).png",
+    "sha1": "c94baf7e7d285e0253a06afe1f55e09a74391ce6"
+  },
+  {
+    "id": "minecraft:burning_skull",
+    "file": "Burning skull (4x4).png",
+    "sha1": "90225ed71b7d09fd73e21c04b8a18173159b7160"
+  },
+  {
+    "id": "repo_paintings:burning_swamp",
+    "file": "Burning swamp (4x2).png",
+    "sha1": "9884c5d7ff16d46bbb9a1eca39a2378e89f9ffce"
+  },
+  {
+    "id": "minecraft:cavebird",
+    "file": "Cavebird (3x3).png",
+    "sha1": "d249408a654d9c705db2d2faecbab8f2cebaf98a"
+  },
+  {
+    "id": "splotch_of_paint:challenging_the_storm",
+    "file": "Challenging the storm (3x2).png",
+    "sha1": "e158e9eafd994c78ecbd611ab9cc3e6d9bafd77a"
+  },
+  {
+    "id": "minecraft:changing",
+    "file": "Changing (4x2).png",
+    "sha1": "6efda1f7339e600f5a108e83155d9cd339b5d6ff"
+  },
+  {
+    "id": "splotch_of_paint:colourful_feathers",
+    "file": "Colourful feathers (2x3).png",
+    "sha1": "2028de8ff489b2f72aeee8ddb264d66aae8611dc"
+  },
+  {
+    "id": "minecraft:courbet",
+    "file": "Courbet (2x1).png",
+    "sha1": "95377d1c1fa465e352a194dd8d8b7d6b204546d0"
+  },
+  {
+    "id": "splotch_of_paint:cozy_bay",
+    "file": "Cozy bay (3x2).png",
+    "sha1": "7ade10557d7bda71d7571a024273cbeb0189b84c"
+  },
+  {
+    "id": "minecraft:creebet",
+    "file": "Creebet (2x1).png",
+    "sha1": "31bd23df0ed6858aa15eba662fd0aa5926a417bf"
+  },
+  {
+    "id": "splotch_of_paint:distant_rings",
+    "file": "Distant rings (1x1).png",
+    "sha1": "6ba227b658e771a98ee8382d83f89a460e182df5"
+  },
+  {
+    "id": "repo_paintings:dog",
+    "file": "Dog (1x1).png",
+    "sha1": "4b6e4ee695fca9e9f6680d32a61cdf365d96f414"
+  },
+  {
+    "id": "minecraft:donkey_kong",
+    "file": "Donkey kong (4x3).png",
+    "sha1": "905182ae11e9d43b89e5c75a80c7031fb29819c1"
+  },
+  {
+    "id": "splotch_of_paint:eastern_vistas",
+    "file": "Eastern vistas (3x3).png",
+    "sha1": "9525220a9ff65198ffe6b1f812dfd727fd82fe0c",
+    "aliases": [
+      {
+        "id": "splotch_of_paint:wet_pastures",
+        "width": 2,
+        "height": 2
+      },
+      {
+        "id": "splotch_of_paint:wonderous_beyond",
+        "width": 1,
+        "height": 1
+      }
+    ]
+  },
+  {
+    "id": "repo_paintings:euphoria",
+    "file": "Euphoria (4x2).png",
+    "sha1": "420942593e78ff6f726674c813c771f23f29feff"
+  },
+  {
+    "id": "splotch_of_paint:fall_comes_for_the_ruins",
+    "file": "Fall comes for the ruins (4x2).png",
+    "sha1": "ba99d83de9e2d58bf3282dde80a7394291520580"
+  },
+  {
+    "id": "minecraft:fighters",
+    "file": "Fighters (4x2).png",
+    "sha1": "f02c7303e5f798339890e865e0cf9ece94691456"
+  },
+  {
+    "id": "splotch_of_paint:flower_of_the_wild",
+    "file": "Flower of the wild (2x3).png",
+    "sha1": "2fa99bdbdc64e6b7bbb2ce39494d6ed9b6997d90"
+  },
+  {
+    "id": "splotch_of_paint:frozen_bones",
+    "file": "Frozen bones (3x2).png",
+    "sha1": "aa7f91ef8f71d377257b625fcbeb876c849aae20",
+    "aliases": [
+      {
+        "id": "minecraft:skeleton",
+        "width": 4,
+        "height": 3
+      }
+    ]
+  },
+  {
+    "id": "splotch_of_paint:house_away_from_sol",
+    "file": "House away from sol (3x2).png",
+    "sha1": "1112f828075db1f8d47cfba19ebc877e658d2347"
+  },
+  {
+    "id": "splotch_of_paint:in_the_heart_of_the_savanna",
+    "file": "In the heart of the savanna (3x2).png",
+    "sha1": "753ee6edb46247e072cb7e55537454dba55cea99",
+    "aliases": [
+      {
+        "id": "splotch_of_paint:tree_of_serenity",
+        "width": 4,
+        "height": 3
+      }
+    ]
+  },
+  {
+    "id": "splotch_of_paint:islands_in_the_sky",
+    "file": "Islands in the sky (2x3).png",
+    "sha1": "4357d4f9c3ee3fb2d17cec4378159a94faf80d2f",
+    "aliases": [
+      {
+        "id": "splotch_of_paint:treehouse_living",
+        "width": 3,
+        "height": 4
+      }
+    ]
+  },
+  {
+    "id": "minecraft:kebab",
+    "file": "Kebab (1x1).png",
+    "sha1": "4c9d71862ef8a64afe00668a6eae378a86682b42"
+  },
+  {
+    "id": "splotch_of_paint:lively_canopy",
+    "file": "Lively canopy (3x3).png",
+    "sha1": "5624d1f49f579dc0f5a224707e68689806bb4b15",
+    "aliases": [
+      {
+        "id": "splotch_of_paint:workshop_accident",
+        "width": 2,
+        "height": 2
+      }
+    ]
+  },
+  {
+    "id": "minecraft:match",
+    "file": "Match (2x2).png",
+    "sha1": "0b8d860f27ab890a72a49d2268a3ba3999383528"
+  },
+  {
+    "id": "minecraft:meditative",
+    "file": "Meditative (1x1).png",
+    "sha1": "87ccc8a52c2a431c84579281d8b1af669793a6a7"
+  },
+  {
+    "id": "splotch_of_paint:never_returning",
+    "file": "Never returning (3x3).png",
+    "sha1": "220355bba45c773184905c42f17193f11eb1c38e",
+    "aliases": [
+      {
+        "id": "splotch_of_paint:classic_fruit_bowl",
+        "width": 2,
+        "height": 2
+      },
+      {
+        "id": "splotch_of_paint:heavy_is_the_crown",
+        "width": 1,
+        "height": 1
+      }
+    ]
+  },
+  {
+    "id": "splotch_of_paint:old_road",
+    "file": "Old road (4x2).png",
+    "sha1": "df8f6fe114c8780aae95c0134cb79865025bc0d6"
+  },
+  {
+    "id": "splotch_of_paint:on_the_bones_of_colossi",
+    "file": "On the bones of colossi (4x3).png",
+    "sha1": "4d891fb86b236f10fe906696436175296f5f4983",
+    "aliases": [
+      {
+        "id": "splotch_of_paint:restaurant_scenery",
+        "width": 3,
+        "height": 2
+      }
+    ]
+  },
+  {
+    "id": "minecraft:orb",
+    "file": "Orb (4x4).png",
+    "sha1": "12e3c7161b018940ba40a88c24556a8f45ccf312"
+  },
+  {
+    "id": "minecraft:pigscene",
+    "file": "Pigscene (4x4).png",
+    "sha1": "a13c466c6dd222456620d846a4078d2f7a1eb7ae"
+  },
+  {
+    "id": "minecraft:plant",
+    "file": "Plant (1x1).png",
+    "sha1": "50a792ce567ae049c2896cf39d89b656b6a16694"
+  },
+  {
+    "id": "minecraft:pool",
+    "file": "Pool (2x1).png",
+    "sha1": "2eaac4c5324be3f94a90649953d89fc36882ddb4"
+  },
+  {
+    "id": "splotch_of_paint:sandy_monolith",
+    "file": "Sandy monolith (4x2).png",
+    "sha1": "1778995bfcaa5d973ba42dda77958855a4306bdd"
+  },
+  {
+    "id": "minecraft:sea",
+    "file": "Sea (2x1).png",
+    "sha1": "d67095d06720ab777c65b92b403b01ffdc41396c"
+  },
+  {
+    "id": "splotch_of_paint:starry_barrens",
+    "file": "Starry barrens (3x2).png",
+    "sha1": "a13a91e98beb80efd6ae410e7b329a51d75e4a51"
+  },
+  {
+    "id": "splotch_of_paint:sulphuric_hollows",
+    "file": "Sulphuric hollows (4x2).png",
+    "sha1": "b30fbdd8e4a5c30adebbf16b51c427af9016d703"
+  },
+  {
+    "id": "minecraft:sunset",
+    "file": "Sunset (2x1).png",
+    "sha1": "103e0c28c07f9f3134f5cf29654891ac852b42fc"
+  },
+  {
+    "id": "splotch_of_paint:the_shroom",
+    "file": "The shroom (3x3).png",
+    "sha1": "e1f2e019ace317168d6168150b39412d1155bd48",
+    "aliases": [
+      {
+        "id": "splotch_of_paint:bygone_glyphs",
+        "width": 2,
+        "height": 2
+      }
+    ]
+  },
+  {
+    "id": "splotch_of_paint:vibrant_jungle_life",
+    "file": "Vibrant jungle life (3x2).png",
+    "sha1": "fa870eef0eac4a8a1423ae5d705576525db1d334"
+  },
+  {
+    "id": "splotch_of_paint:warped_petals",
+    "file": "Warped petals (2x3).png",
+    "sha1": "cc6836c8d69ef2d8ed3ad759f60c194298a1e25b"
+  },
+  {
+    "id": "minecraft:wasteland",
+    "file": "Wasteland (1x1).png",
+    "sha1": "5569110a9a9df1ca551a281ccc2e079d3c520d80"
+  },
+  {
+    "id": "splotch_of_paint:weeping_by_the_river",
+    "file": "Weeping by the river (4x2).png",
+    "sha1": "96c56657b4ef3874d67017159e5defc83a873c87"
+  },
+  {
+    "id": "splotch_of_paint:woodpecker_bird",
+    "file": "Woodpecker bird (2x3).png",
+    "sha1": "506c7ea217acc3bd2f3809571e5e4e51c1103c0a"
+  }
+]

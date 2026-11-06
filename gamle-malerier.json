@@ -1,0 +1,3590 @@
+{
+ "repo_paintings:apples": {
+  "asset_id": "repo_paintings:apples",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.apples.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.apples.author"
+  }
+ },
+ "repo_paintings:armadillo": {
+  "asset_id": "repo_paintings:armadillo",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.armadillo.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.armadillo.author"
+  }
+ },
+ "repo_paintings:anger": {
+  "asset_id": "repo_paintings:anger",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.anger.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.anger.author"
+  }
+ },
+ "repo_paintings:bananas": {
+  "asset_id": "repo_paintings:bananas",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.bananas.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.bananas.author"
+  }
+ },
+ "repo_paintings:beige_abstraction": {
+  "asset_id": "repo_paintings:beige_abstraction",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.beige_abstraction.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.beige_abstraction.author"
+  }
+ },
+ "repo_paintings:beautyful": {
+  "asset_id": "repo_paintings:beautyful",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.beautyful.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.beautyful.author"
+  }
+ },
+ "repo_paintings:black_abstraction": {
+  "asset_id": "repo_paintings:black_abstraction",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.black_abstraction.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.black_abstraction.author"
+  }
+ },
+ "repo_paintings:birthday": {
+  "asset_id": "repo_paintings:birthday",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.birthday.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.birthday.author"
+  }
+ },
+ "repo_paintings:eye": {
+  "asset_id": "repo_paintings:eye",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.eye.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.eye.author"
+  }
+ },
+ "repo_paintings:earth_on_breakfast": {
+  "asset_id": "repo_paintings:earth_on_breakfast",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.earth_on_breakfast.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.earth_on_breakfast.author"
+  }
+ },
+ "repo_paintings:fog_of_love": {
+  "asset_id": "repo_paintings:fog_of_love",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.fog_of_love.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.fog_of_love.author"
+  }
+ },
+ "repo_paintings:blot": {
+  "asset_id": "repo_paintings:blot",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.blot.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.blot.author"
+  }
+ },
+ "repo_paintings:boring": {
+  "asset_id": "repo_paintings:boring",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.boring.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.boring.author"
+  }
+ },
+ "repo_paintings:eyes": {
+  "asset_id": "repo_paintings:eyes",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.eyes.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.eyes.author"
+  }
+ },
+ "repo_paintings:bowtie": {
+  "asset_id": "repo_paintings:bowtie",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.bowtie.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.bowtie.author"
+  }
+ },
+ "repo_paintings:gnome": {
+  "asset_id": "repo_paintings:gnome",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.gnome.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.gnome.author"
+  }
+ },
+ "repo_paintings:in_circle": {
+  "asset_id": "repo_paintings:in_circle",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.in_circle.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.in_circle.author"
+  }
+ },
+ "repo_paintings:in_suit": {
+  "asset_id": "repo_paintings:in_suit",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.in_suit.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.in_suit.author"
+  }
+ },
+ "repo_paintings:head": {
+  "asset_id": "repo_paintings:head",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.head.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.head.author"
+  }
+ },
+ "repo_paintings:indigo_abstraction": {
+  "asset_id": "repo_paintings:indigo_abstraction",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.indigo_abstraction.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.indigo_abstraction.author"
+  }
+ },
+ "repo_paintings:human": {
+  "asset_id": "repo_paintings:human",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.human.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.human.author"
+  }
+ },
+ "repo_paintings:golden_poop": {
+  "asset_id": "repo_paintings:golden_poop",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.golden_poop.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.golden_poop.author"
+  }
+ },
+ "repo_paintings:look_up": {
+  "asset_id": "repo_paintings:look_up",
+  "width": 4,
+  "height": 4,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.look_up.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.look_up.author"
+  }
+ },
+ "repo_paintings:jannk": {
+  "asset_id": "repo_paintings:jannk",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.jannk.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.jannk.author"
+  }
+ },
+ "repo_paintings:one_two": {
+  "asset_id": "repo_paintings:one_two",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.one_two.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.one_two.author"
+  }
+ },
+ "repo_paintings:moose": {
+  "asset_id": "repo_paintings:moose",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.moose.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.moose.author"
+  }
+ },
+ "repo_paintings:sadness": {
+  "asset_id": "repo_paintings:sadness",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.sadness.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.sadness.author"
+  }
+ },
+ "repo_paintings:purple_suit": {
+  "asset_id": "repo_paintings:purple_suit",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.purple_suit.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.purple_suit.author"
+  }
+ },
+ "repo_paintings:pink_suit": {
+  "asset_id": "repo_paintings:pink_suit",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.pink_suit.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.pink_suit.author"
+  }
+ },
+ "repo_paintings:pontus_plant": {
+  "asset_id": "repo_paintings:pontus_plant",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.pontus_plant.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.pontus_plant.author"
+  }
+ },
+ "repo_paintings:road": {
+  "asset_id": "repo_paintings:road",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.road.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.road.author"
+  }
+ },
+ "repo_paintings:shine": {
+  "asset_id": "repo_paintings:shine",
+  "width": 4,
+  "height": 4,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.shine.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.shine.author"
+  }
+ },
+ "repo_paintings:pink_abstraction": {
+  "asset_id": "repo_paintings:pink_abstraction",
+  "width": 2,
+  "height": 4,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.pink_abstraction.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.pink_abstraction.author"
+  }
+ },
+ "repo_paintings:phone": {
+  "asset_id": "repo_paintings:phone",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.phone.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.phone.author"
+  }
+ },
+ "repo_paintings:pig": {
+  "asset_id": "repo_paintings:pig",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.pig.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.pig.author"
+  }
+ },
+ "repo_paintings:red_abstraction": {
+  "asset_id": "repo_paintings:red_abstraction",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.red_abstraction.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.red_abstraction.author"
+  }
+ },
+ "repo_paintings:red_eyes": {
+  "asset_id": "repo_paintings:red_eyes",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.red_eyes.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.red_eyes.author"
+  }
+ },
+ "repo_paintings:box": {
+  "asset_id": "repo_paintings:box",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.box.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.box.author"
+  }
+ },
+ "repo_paintings:burning_swamp": {
+  "asset_id": "repo_paintings:burning_swamp",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.burning_swamp.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.burning_swamp.author"
+  }
+ },
+ "repo_paintings:surprise": {
+  "asset_id": "repo_paintings:surprise",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.surprise.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.surprise.author"
+  }
+ },
+ "repo_paintings:veins": {
+  "asset_id": "repo_paintings:veins",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.veins.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.veins.author"
+  }
+ },
+ "repo_paintings:circulatory": {
+  "asset_id": "repo_paintings:circulatory",
+  "width": 4,
+  "height": 4,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.circulatory.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.circulatory.author"
+  }
+ },
+ "repo_paintings:wand": {
+  "asset_id": "repo_paintings:wand",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.wand.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.wand.author"
+  }
+ },
+ "repo_paintings:brown_abstraction": {
+  "asset_id": "repo_paintings:brown_abstraction",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.brown_abstraction.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.brown_abstraction.author"
+  }
+ },
+ "repo_paintings:taxman": {
+  "asset_id": "repo_paintings:taxman",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.taxman.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.taxman.author"
+  }
+ },
+ "repo_paintings:tree": {
+  "asset_id": "repo_paintings:tree",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.tree.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.tree.author"
+  }
+ },
+ "repo_paintings:turn_around": {
+  "asset_id": "repo_paintings:turn_around",
+  "width": 2,
+  "height": 4,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.turn_around.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.turn_around.author"
+  }
+ },
+ "repo_paintings:surrounded_by_eyes": {
+  "asset_id": "repo_paintings:surrounded_by_eyes",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.surrounded_by_eyes.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.surrounded_by_eyes.author"
+  }
+ },
+ "repo_paintings:song": {
+  "asset_id": "repo_paintings:song",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.song.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.song.author"
+  }
+ },
+ "repo_paintings:yellow_abstraction": {
+  "asset_id": "repo_paintings:yellow_abstraction",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.yellow_abstraction.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.yellow_abstraction.author"
+  }
+ },
+ "repo_paintings:twilight": {
+  "asset_id": "repo_paintings:twilight",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.twilight.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.twilight.author"
+  }
+ },
+ "repo_paintings:cat": {
+  "asset_id": "repo_paintings:cat",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.cat.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.cat.author"
+  }
+ },
+ "repo_paintings:chef": {
+  "asset_id": "repo_paintings:chef",
+  "width": 2,
+  "height": 4,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.chef.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.chef.author"
+  }
+ },
+ "repo_paintings:watching_eye": {
+  "asset_id": "repo_paintings:watching_eye",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.watching_eye.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.watching_eye.author"
+  }
+ },
+ "repo_paintings:chair": {
+  "asset_id": "repo_paintings:chair",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.chair.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.chair.author"
+  }
+ },
+ "repo_paintings:colored_abstraction": {
+  "asset_id": "repo_paintings:colored_abstraction",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.colored_abstraction.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.colored_abstraction.author"
+  }
+ },
+ "repo_paintings:coquetry": {
+  "asset_id": "repo_paintings:coquetry",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.coquetry.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.coquetry.author"
+  }
+ },
+ "repo_paintings:death": {
+  "asset_id": "repo_paintings:death",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.death.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.death.author"
+  }
+ },
+ "repo_paintings:dog": {
+  "asset_id": "repo_paintings:dog",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.dog.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.dog.author"
+  }
+ },
+ "repo_paintings:crow": {
+  "asset_id": "repo_paintings:crow",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.crow.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.crow.author"
+  }
+ },
+ "repo_paintings:creep": {
+  "asset_id": "repo_paintings:creep",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.creep.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.creep.author"
+  }
+ },
+ "repo_paintings:trees": {
+  "asset_id": "repo_paintings:trees",
+  "width": 2,
+  "height": 4,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.trees.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.trees.author"
+  }
+ },
+ "repo_paintings:dark_brown_abstraction": {
+  "asset_id": "repo_paintings:dark_brown_abstraction",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.dark_brown_abstraction.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.dark_brown_abstraction.author"
+  }
+ },
+ "repo_paintings:duck": {
+  "asset_id": "repo_paintings:duck",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.duck.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.duck.author"
+  }
+ },
+ "repo_paintings:flames": {
+  "asset_id": "repo_paintings:flames",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.flames.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.flames.author"
+  }
+ },
+ "repo_paintings:gaze": {
+  "asset_id": "repo_paintings:gaze",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.gaze.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.gaze.author"
+  }
+ },
+ "repo_paintings:furman": {
+  "asset_id": "repo_paintings:furman",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.furman.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.furman.author"
+  }
+ },
+ "repo_paintings:evil": {
+  "asset_id": "repo_paintings:evil",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.evil.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.evil.author"
+  }
+ },
+ "repo_paintings:field": {
+  "asset_id": "repo_paintings:field",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.field.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.field.author"
+  }
+ },
+ "repo_paintings:euphoria": {
+  "asset_id": "repo_paintings:euphoria",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.euphoria.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.euphoria.author"
+  }
+ },
+ "repo_paintings:green_abstraction": {
+  "asset_id": "repo_paintings:green_abstraction",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.green_abstraction.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.green_abstraction.author"
+  }
+ },
+ "repo_paintings:hands": {
+  "asset_id": "repo_paintings:hands",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.hands.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.hands.author"
+  }
+ },
+ "repo_paintings:graveyard": {
+  "asset_id": "repo_paintings:graveyard",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.graveyard.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.graveyard.author"
+  }
+ },
+ "repo_paintings:hiding_look": {
+  "asset_id": "repo_paintings:hiding_look",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.hiding_look.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.hiding_look.author"
+  }
+ },
+ "repo_paintings:in_the_shadow": {
+  "asset_id": "repo_paintings:in_the_shadow",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.in_the_shadow.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.in_the_shadow.author"
+  }
+ },
+ "repo_paintings:hiding": {
+  "asset_id": "repo_paintings:hiding",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.hiding.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.hiding.author"
+  }
+ },
+ "repo_paintings:island": {
+  "asset_id": "repo_paintings:island",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.island.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.island.author"
+  }
+ },
+ "repo_paintings:landscape": {
+  "asset_id": "repo_paintings:landscape",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.landscape.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.landscape.author"
+  }
+ },
+ "repo_paintings:light_blue_abstraction": {
+  "asset_id": "repo_paintings:light_blue_abstraction",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.light_blue_abstraction.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.light_blue_abstraction.author"
+  }
+ },
+ "repo_paintings:madness": {
+  "asset_id": "repo_paintings:madness",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.madness.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.madness.author"
+  }
+ },
+ "repo_paintings:surrealistic": {
+  "asset_id": "repo_paintings:surrealistic",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.surrealistic.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.surrealistic.author"
+  }
+ },
+ "repo_paintings:torii": {
+  "asset_id": "repo_paintings:torii",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.torii.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.torii.author"
+  }
+ },
+ "repo_paintings:hockey": {
+  "asset_id": "repo_paintings:hockey",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.hockey.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.hockey.author"
+  }
+ },
+ "repo_paintings:pickle": {
+  "asset_id": "repo_paintings:pickle",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.pickle.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.pickle.author"
+  }
+ },
+ "repo_paintings:purple_heart": {
+  "asset_id": "repo_paintings:purple_heart",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.purple_heart.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.purple_heart.author"
+  }
+ },
+ "repo_paintings:poisonous_sting": {
+  "asset_id": "repo_paintings:poisonous_sting",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.poisonous_sting.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.poisonous_sting.author"
+  }
+ },
+ "repo_paintings:monster": {
+  "asset_id": "repo_paintings:monster",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.monster.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.monster.author"
+  }
+ },
+ "repo_paintings:sad": {
+  "asset_id": "repo_paintings:sad",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.sad.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.sad.author"
+  }
+ },
+ "repo_paintings:shadowchild": {
+  "asset_id": "repo_paintings:shadowchild",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.shadowchild.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.shadowchild.author"
+  }
+ },
+ "repo_paintings:revived": {
+  "asset_id": "repo_paintings:revived",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.revived.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.revived.author"
+  }
+ },
+ "repo_paintings:shock": {
+  "asset_id": "repo_paintings:shock",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.shock.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.shock.author"
+  }
+ },
+ "repo_paintings:stroke": {
+  "asset_id": "repo_paintings:stroke",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.stroke.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.stroke.author"
+  }
+ },
+ "repo_paintings:smile": {
+  "asset_id": "repo_paintings:smile",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.smile.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.smile.author"
+  }
+ },
+ "repo_paintings:time": {
+  "asset_id": "repo_paintings:time",
+  "width": 2,
+  "height": 4,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.time.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.time.author"
+  }
+ },
+ "repo_paintings:spyglass": {
+  "asset_id": "repo_paintings:spyglass",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.spyglass.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.spyglass.author"
+  }
+ },
+ "repo_paintings:sighted": {
+  "asset_id": "repo_paintings:sighted",
+  "width": 2,
+  "height": 4,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.sighted.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.sighted.author"
+  }
+ },
+ "repo_paintings:sign": {
+  "asset_id": "repo_paintings:sign",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.sign.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.sign.author"
+  }
+ },
+ "repo_paintings:wine_lake": {
+  "asset_id": "repo_paintings:wine_lake",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.wine_lake.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.wine_lake.author"
+  }
+ },
+ "repo_paintings:wings": {
+  "asset_id": "repo_paintings:wings",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.wings.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.wings.author"
+  }
+ },
+ "repo_paintings:sphere": {
+  "asset_id": "repo_paintings:sphere",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.sphere.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.sphere.author"
+  }
+ },
+ "repo_paintings:skittles": {
+  "asset_id": "repo_paintings:skittles",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "yellow",
+   "translate": "painting.repo_paintings.skittles.title"
+  },
+  "author": {
+   "color": "gray",
+   "translate": "painting.repo_paintings.skittles.author"
+  }
+ },
+ "splotch_of_paint:blood_moon": {
+  "asset_id": "splotch_of_paint:blood_moon",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.blood_moon.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.blood_moon.author"
+  }
+ },
+ "splotch_of_paint:bubbles_and_spikes": {
+  "asset_id": "splotch_of_paint:bubbles_and_spikes",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.bubbles_and_spikes.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.bubbles_and_spikes.author"
+  }
+ },
+ "splotch_of_paint:alluring_allurestems": {
+  "asset_id": "splotch_of_paint:alluring_allurestems",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.alluring_allurestems.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.alluring_allurestems.author"
+  }
+ },
+ "splotch_of_paint:above_hells_roof": {
+  "asset_id": "splotch_of_paint:above_hells_roof",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.above_hells_roof.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.above_hells_roof.author"
+  }
+ },
+ "splotch_of_paint:afternoon_dance": {
+  "asset_id": "splotch_of_paint:afternoon_dance",
+  "width": 3,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.afternoon_dance.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.afternoon_dance.author"
+  }
+ },
+ "splotch_of_paint:alien_landscapes": {
+  "asset_id": "splotch_of_paint:alien_landscapes",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.alien_landscapes.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.alien_landscapes.author"
+  }
+ },
+ "splotch_of_paint:amidst_the_fields": {
+  "asset_id": "splotch_of_paint:amidst_the_fields",
+  "width": 3,
+  "height": 4,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.amidst_the_fields.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.amidst_the_fields.author"
+  }
+ },
+ "splotch_of_paint:always_a_bigger_fish": {
+  "asset_id": "splotch_of_paint:always_a_bigger_fish",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.always_a_bigger_fish.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.always_a_bigger_fish.author"
+  }
+ },
+ "splotch_of_paint:arbor_ex_somniis_nata": {
+  "asset_id": "splotch_of_paint:arbor_ex_somniis_nata",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.arbor_ex_somniis_nata.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.arbor_ex_somniis_nata.author"
+  }
+ },
+ "splotch_of_paint:an_evening_lightshow": {
+  "asset_id": "splotch_of_paint:an_evening_lightshow",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.an_evening_lightshow.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.an_evening_lightshow.author"
+  }
+ },
+ "splotch_of_paint:angel_in_the_frame": {
+  "asset_id": "splotch_of_paint:angel_in_the_frame",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.angel_in_the_frame.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.angel_in_the_frame.author"
+  }
+ },
+ "splotch_of_paint:ancestral_column": {
+  "asset_id": "splotch_of_paint:ancestral_column",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.ancestral_column.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.ancestral_column.author"
+  }
+ },
+ "splotch_of_paint:cackling_from_the_garden": {
+  "asset_id": "splotch_of_paint:cackling_from_the_garden",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.cackling_from_the_garden.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.cackling_from_the_garden.author"
+  }
+ },
+ "splotch_of_paint:calming_beach": {
+  "asset_id": "splotch_of_paint:calming_beach",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.calming_beach.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.calming_beach.author"
+  }
+ },
+ "splotch_of_paint:challenging_the_storm": {
+  "asset_id": "splotch_of_paint:challenging_the_storm",
+  "width": 3,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.challenging_the_storm.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.challenging_the_storm.author"
+  }
+ },
+ "splotch_of_paint:arctic_chills": {
+  "asset_id": "splotch_of_paint:arctic_chills",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.arctic_chills.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.arctic_chills.author"
+  }
+ },
+ "splotch_of_paint:aspect_of_war": {
+  "asset_id": "splotch_of_paint:aspect_of_war",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.aspect_of_war.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.aspect_of_war.author"
+  }
+ },
+ "splotch_of_paint:autumn_streets": {
+  "asset_id": "splotch_of_paint:autumn_streets",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.autumn_streets.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.autumn_streets.author"
+  }
+ },
+ "splotch_of_paint:cogs_and_industry": {
+  "asset_id": "splotch_of_paint:cogs_and_industry",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.cogs_and_industry.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.cogs_and_industry.author"
+  }
+ },
+ "splotch_of_paint:colourful_feathers": {
+  "asset_id": "splotch_of_paint:colourful_feathers",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.colourful_feathers.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.colourful_feathers.author"
+  }
+ },
+ "splotch_of_paint:beach_date": {
+  "asset_id": "splotch_of_paint:beach_date",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.beach_date.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.beach_date.author"
+  }
+ },
+ "splotch_of_paint:bad_omens_befall_the_temple": {
+  "asset_id": "splotch_of_paint:bad_omens_befall_the_temple",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.bad_omens_befall_the_temple.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.bad_omens_befall_the_temple.author"
+  }
+ },
+ "splotch_of_paint:binary_man": {
+  "asset_id": "splotch_of_paint:binary_man",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.binary_man.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.binary_man.author"
+  }
+ },
+ "splotch_of_paint:barren_rock_allure": {
+  "asset_id": "splotch_of_paint:barren_rock_allure",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.barren_rock_allure.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.barren_rock_allure.author"
+  }
+ },
+ "splotch_of_paint:beached_anchor": {
+  "asset_id": "splotch_of_paint:beached_anchor",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.beached_anchor.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.beached_anchor.author"
+  }
+ },
+ "splotch_of_paint:cozy_bay": {
+  "asset_id": "splotch_of_paint:cozy_bay",
+  "width": 3,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.cozy_bay.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.cozy_bay.author"
+  }
+ },
+ "splotch_of_paint:beyond_a_distant_nebula": {
+  "asset_id": "splotch_of_paint:beyond_a_distant_nebula",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.beyond_a_distant_nebula.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.beyond_a_distant_nebula.author"
+  }
+ },
+ "splotch_of_paint:dark_manor": {
+  "asset_id": "splotch_of_paint:dark_manor",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.dark_manor.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.dark_manor.author"
+  }
+ },
+ "splotch_of_paint:delicate_features": {
+  "asset_id": "splotch_of_paint:delicate_features",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.delicate_features.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.delicate_features.author"
+  }
+ },
+ "splotch_of_paint:eclipsed": {
+  "asset_id": "splotch_of_paint:eclipsed",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.eclipsed.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.eclipsed.author"
+  }
+ },
+ "splotch_of_paint:blooming_chorus_field": {
+  "asset_id": "splotch_of_paint:blooming_chorus_field",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.blooming_chorus_field.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.blooming_chorus_field.author"
+  }
+ },
+ "splotch_of_paint:blossoming_chorusbloom": {
+  "asset_id": "splotch_of_paint:blossoming_chorusbloom",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.blossoming_chorusbloom.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.blossoming_chorusbloom.author"
+  }
+ },
+ "splotch_of_paint:down_by_the_river": {
+  "asset_id": "splotch_of_paint:down_by_the_river",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.down_by_the_river.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.down_by_the_river.author"
+  }
+ },
+ "splotch_of_paint:bioluminescent_beauty": {
+  "asset_id": "splotch_of_paint:bioluminescent_beauty",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.bioluminescent_beauty.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.bioluminescent_beauty.author"
+  }
+ },
+ "splotch_of_paint:brutish_portrait": {
+  "asset_id": "splotch_of_paint:brutish_portrait",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.brutish_portrait.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.brutish_portrait.author"
+  }
+ },
+ "splotch_of_paint:boreal_metropolis": {
+  "asset_id": "splotch_of_paint:boreal_metropolis",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.boreal_metropolis.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.boreal_metropolis.author"
+  }
+ },
+ "splotch_of_paint:eerie_visage": {
+  "asset_id": "splotch_of_paint:eerie_visage",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.eerie_visage.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.eerie_visage.author"
+  }
+ },
+ "splotch_of_paint:end_static": {
+  "asset_id": "splotch_of_paint:end_static",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.end_static.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.end_static.author"
+  }
+ },
+ "splotch_of_paint:etheric_ripples": {
+  "asset_id": "splotch_of_paint:etheric_ripples",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.etheric_ripples.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.etheric_ripples.author"
+  }
+ },
+ "splotch_of_paint:energy_stream": {
+  "asset_id": "splotch_of_paint:energy_stream",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.energy_stream.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.energy_stream.author"
+  }
+ },
+ "splotch_of_paint:eyes_amongst_the_trees": {
+  "asset_id": "splotch_of_paint:eyes_amongst_the_trees",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.eyes_amongst_the_trees.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.eyes_amongst_the_trees.author"
+  }
+ },
+ "splotch_of_paint:familiarity_in_the_alien": {
+  "asset_id": "splotch_of_paint:familiarity_in_the_alien",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.familiarity_in_the_alien.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.familiarity_in_the_alien.author"
+  }
+ },
+ "splotch_of_paint:frost_and_serenity": {
+  "asset_id": "splotch_of_paint:frost_and_serenity",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.frost_and_serenity.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.frost_and_serenity.author"
+  }
+ },
+ "splotch_of_paint:familiar_face": {
+  "asset_id": "splotch_of_paint:familiar_face",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.familiar_face.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.familiar_face.author"
+  }
+ },
+ "splotch_of_paint:fiery_demise": {
+  "asset_id": "splotch_of_paint:fiery_demise",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.fiery_demise.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.fiery_demise.author"
+  }
+ },
+ "splotch_of_paint:faces_and_shapes": {
+  "asset_id": "splotch_of_paint:faces_and_shapes",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.faces_and_shapes.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.faces_and_shapes.author"
+  }
+ },
+ "splotch_of_paint:floral_omens": {
+  "asset_id": "splotch_of_paint:floral_omens",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.floral_omens.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.floral_omens.author"
+  }
+ },
+ "splotch_of_paint:glowing_ribcage": {
+  "asset_id": "splotch_of_paint:glowing_ribcage",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.glowing_ribcage.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.glowing_ribcage.author"
+  }
+ },
+ "splotch_of_paint:gaunt_and_forgotten": {
+  "asset_id": "splotch_of_paint:gaunt_and_forgotten",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.gaunt_and_forgotten.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.gaunt_and_forgotten.author"
+  }
+ },
+ "splotch_of_paint:guiding_light": {
+  "asset_id": "splotch_of_paint:guiding_light",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.guiding_light.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.guiding_light.author"
+  }
+ },
+ "splotch_of_paint:going_under": {
+  "asset_id": "splotch_of_paint:going_under",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.going_under.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.going_under.author"
+  }
+ },
+ "splotch_of_paint:flowering_warps": {
+  "asset_id": "splotch_of_paint:flowering_warps",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.flowering_warps.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.flowering_warps.author"
+  }
+ },
+ "splotch_of_paint:in_the_aftermath": {
+  "asset_id": "splotch_of_paint:in_the_aftermath",
+  "width": 3,
+  "height": 4,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.in_the_aftermath.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.in_the_aftermath.author"
+  }
+ },
+ "splotch_of_paint:bygone_glyphs": {
+  "asset_id": "splotch_of_paint:bygone_glyphs",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.bygone_glyphs.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.bygone_glyphs.author"
+  }
+ },
+ "splotch_of_paint:in_the_heart_of_the_savanna": {
+  "asset_id": "splotch_of_paint:in_the_heart_of_the_savanna",
+  "width": 3,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.in_the_heart_of_the_savanna.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.in_the_heart_of_the_savanna.author"
+  }
+ },
+ "splotch_of_paint:master_of_the_craft": {
+  "asset_id": "splotch_of_paint:master_of_the_craft",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.master_of_the_craft.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.master_of_the_craft.author"
+  }
+ },
+ "splotch_of_paint:legends_and_crystals": {
+  "asset_id": "splotch_of_paint:legends_and_crystals",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.legends_and_crystals.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.legends_and_crystals.author"
+  }
+ },
+ "splotch_of_paint:idyllic_perspetives": {
+  "asset_id": "splotch_of_paint:idyllic_perspetives",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.idyllic_perspetives.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.idyllic_perspetives.author"
+  }
+ },
+ "splotch_of_paint:lonely_tree": {
+  "asset_id": "splotch_of_paint:lonely_tree",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.lonely_tree.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.lonely_tree.author"
+  }
+ },
+ "splotch_of_paint:magma_flow": {
+  "asset_id": "splotch_of_paint:magma_flow",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.magma_flow.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.magma_flow.author"
+  }
+ },
+ "splotch_of_paint:changing_of_the_season": {
+  "asset_id": "splotch_of_paint:changing_of_the_season",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.changing_of_the_season.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.changing_of_the_season.author"
+  }
+ },
+ "splotch_of_paint:house_away_from_sol": {
+  "asset_id": "splotch_of_paint:house_away_from_sol",
+  "width": 3,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.house_away_from_sol.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.house_away_from_sol.author"
+  }
+ },
+ "splotch_of_paint:in_the_murky_deep": {
+  "asset_id": "splotch_of_paint:in_the_murky_deep",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.in_the_murky_deep.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.in_the_murky_deep.author"
+  }
+ },
+ "splotch_of_paint:looming_dragon": {
+  "asset_id": "splotch_of_paint:looming_dragon",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.looming_dragon.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.looming_dragon.author"
+  }
+ },
+ "splotch_of_paint:classic_fruit_bowl": {
+  "asset_id": "splotch_of_paint:classic_fruit_bowl",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.classic_fruit_bowl.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.classic_fruit_bowl.author"
+  }
+ },
+ "splotch_of_paint:grayscale_world": {
+  "asset_id": "splotch_of_paint:grayscale_world",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.grayscale_world.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.grayscale_world.author"
+  }
+ },
+ "splotch_of_paint:jovian_clouds": {
+  "asset_id": "splotch_of_paint:jovian_clouds",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.jovian_clouds.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.jovian_clouds.author"
+  }
+ },
+ "splotch_of_paint:celestial_sights": {
+  "asset_id": "splotch_of_paint:celestial_sights",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.celestial_sights.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.celestial_sights.author"
+  }
+ },
+ "splotch_of_paint:collision_course": {
+  "asset_id": "splotch_of_paint:collision_course",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.collision_course.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.collision_course.author"
+  }
+ },
+ "splotch_of_paint:myth_above_golden_seas": {
+  "asset_id": "splotch_of_paint:myth_above_golden_seas",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.myth_above_golden_seas.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.myth_above_golden_seas.author"
+  }
+ },
+ "splotch_of_paint:monster_of_the_night_skies": {
+  "asset_id": "splotch_of_paint:monster_of_the_night_skies",
+  "width": 3,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.monster_of_the_night_skies.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.monster_of_the_night_skies.author"
+  }
+ },
+ "splotch_of_paint:old_road": {
+  "asset_id": "splotch_of_paint:old_road",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.old_road.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.old_road.author"
+  }
+ },
+ "splotch_of_paint:primal_beauty": {
+  "asset_id": "splotch_of_paint:primal_beauty",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.primal_beauty.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.primal_beauty.author"
+  }
+ },
+ "splotch_of_paint:nameless_girl": {
+  "asset_id": "splotch_of_paint:nameless_girl",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.nameless_girl.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.nameless_girl.author"
+  }
+ },
+ "splotch_of_paint:moonlit_bay": {
+  "asset_id": "splotch_of_paint:moonlit_bay",
+  "width": 4,
+  "height": 4,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.moonlit_bay.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.moonlit_bay.author"
+  }
+ },
+ "splotch_of_paint:salt_and_flowers": {
+  "asset_id": "splotch_of_paint:salt_and_flowers",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.salt_and_flowers.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.salt_and_flowers.author"
+  }
+ },
+ "splotch_of_paint:plush_of_doom": {
+  "asset_id": "splotch_of_paint:plush_of_doom",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.plush_of_doom.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.plush_of_doom.author"
+  }
+ },
+ "splotch_of_paint:shiny_rocks": {
+  "asset_id": "splotch_of_paint:shiny_rocks",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.shiny_rocks.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.shiny_rocks.author"
+  }
+ },
+ "splotch_of_paint:on_the_bones_of_colossi": {
+  "asset_id": "splotch_of_paint:on_the_bones_of_colossi",
+  "width": 4,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.on_the_bones_of_colossi.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.on_the_bones_of_colossi.author"
+  }
+ },
+ "splotch_of_paint:scarlettine_workshop": {
+  "asset_id": "splotch_of_paint:scarlettine_workshop",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.scarlettine_workshop.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.scarlettine_workshop.author"
+  }
+ },
+ "splotch_of_paint:starry_barrens": {
+  "asset_id": "splotch_of_paint:starry_barrens",
+  "width": 3,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.starry_barrens.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.starry_barrens.author"
+  }
+ },
+ "splotch_of_paint:red_zeppelin": {
+  "asset_id": "splotch_of_paint:red_zeppelin",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.red_zeppelin.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.red_zeppelin.author"
+  }
+ },
+ "splotch_of_paint:columns_beneath_the_world": {
+  "asset_id": "splotch_of_paint:columns_beneath_the_world",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.columns_beneath_the_world.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.columns_beneath_the_world.author"
+  }
+ },
+ "splotch_of_paint:distant_paradise": {
+  "asset_id": "splotch_of_paint:distant_paradise",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.distant_paradise.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.distant_paradise.author"
+  }
+ },
+ "splotch_of_paint:cross_gaze": {
+  "asset_id": "splotch_of_paint:cross_gaze",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.cross_gaze.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.cross_gaze.author"
+  }
+ },
+ "splotch_of_paint:dearest_home": {
+  "asset_id": "splotch_of_paint:dearest_home",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.dearest_home.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.dearest_home.author"
+  }
+ },
+ "splotch_of_paint:eastern_vistas": {
+  "asset_id": "splotch_of_paint:eastern_vistas",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.eastern_vistas.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.eastern_vistas.author"
+  }
+ },
+ "splotch_of_paint:eeriest_halls": {
+  "asset_id": "splotch_of_paint:eeriest_halls",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.eeriest_halls.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.eeriest_halls.author"
+  }
+ },
+ "splotch_of_paint:distant_rings": {
+  "asset_id": "splotch_of_paint:distant_rings",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.distant_rings.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.distant_rings.author"
+  }
+ },
+ "splotch_of_paint:enigmatic_visitor": {
+  "asset_id": "splotch_of_paint:enigmatic_visitor",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.enigmatic_visitor.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.enigmatic_visitor.author"
+  }
+ },
+ "splotch_of_paint:exotic_petals": {
+  "asset_id": "splotch_of_paint:exotic_petals",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.exotic_petals.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.exotic_petals.author"
+  }
+ },
+ "splotch_of_paint:fable_of_the_white_pumpkin": {
+  "asset_id": "splotch_of_paint:fable_of_the_white_pumpkin",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.fable_of_the_white_pumpkin.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.fable_of_the_white_pumpkin.author"
+  }
+ },
+ "splotch_of_paint:signs_of_change": {
+  "asset_id": "splotch_of_paint:signs_of_change",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.signs_of_change.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.signs_of_change.author"
+  }
+ },
+ "splotch_of_paint:netherforged_champion": {
+  "asset_id": "splotch_of_paint:netherforged_champion",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.netherforged_champion.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.netherforged_champion.author"
+  }
+ },
+ "splotch_of_paint:serpentine_guardian": {
+  "asset_id": "splotch_of_paint:serpentine_guardian",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.serpentine_guardian.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.serpentine_guardian.author"
+  }
+ },
+ "splotch_of_paint:remnant_on_rock": {
+  "asset_id": "splotch_of_paint:remnant_on_rock",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.remnant_on_rock.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.remnant_on_rock.author"
+  }
+ },
+ "splotch_of_paint:mystical_allurestem": {
+  "asset_id": "splotch_of_paint:mystical_allurestem",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.mystical_allurestem.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.mystical_allurestem.author"
+  }
+ },
+ "splotch_of_paint:sunset_at_sea": {
+  "asset_id": "splotch_of_paint:sunset_at_sea",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.sunset_at_sea.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.sunset_at_sea.author"
+  }
+ },
+ "splotch_of_paint:struggle_for_dominance": {
+  "asset_id": "splotch_of_paint:struggle_for_dominance",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.struggle_for_dominance.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.struggle_for_dominance.author"
+  }
+ },
+ "splotch_of_paint:special_egg": {
+  "asset_id": "splotch_of_paint:special_egg",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.special_egg.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.special_egg.author"
+  }
+ },
+ "splotch_of_paint:evoking_emotions": {
+  "asset_id": "splotch_of_paint:evoking_emotions",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.evoking_emotions.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.evoking_emotions.author"
+  }
+ },
+ "splotch_of_paint:fairy_garden": {
+  "asset_id": "splotch_of_paint:fairy_garden",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.fairy_garden.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.fairy_garden.author"
+  }
+ },
+ "splotch_of_paint:forever_watching": {
+  "asset_id": "splotch_of_paint:forever_watching",
+  "width": 2,
+  "height": 4,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.forever_watching.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.forever_watching.author"
+  }
+ },
+ "splotch_of_paint:glitched_and_missing": {
+  "asset_id": "splotch_of_paint:glitched_and_missing",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.glitched_and_missing.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.glitched_and_missing.author"
+  }
+ },
+ "splotch_of_paint:frozen_bones": {
+  "asset_id": "splotch_of_paint:frozen_bones",
+  "width": 3,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.frozen_bones.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.frozen_bones.author"
+  }
+ },
+ "splotch_of_paint:final_frontier": {
+  "asset_id": "splotch_of_paint:final_frontier",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.final_frontier.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.final_frontier.author"
+  }
+ },
+ "splotch_of_paint:rain_washes_the_city": {
+  "asset_id": "splotch_of_paint:rain_washes_the_city",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.rain_washes_the_city.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.rain_washes_the_city.author"
+  }
+ },
+ "splotch_of_paint:something_in_the_void": {
+  "asset_id": "splotch_of_paint:something_in_the_void",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.something_in_the_void.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.something_in_the_void.author"
+  }
+ },
+ "splotch_of_paint:spiralling_puffs": {
+  "asset_id": "splotch_of_paint:spiralling_puffs",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.spiralling_puffs.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.spiralling_puffs.author"
+  }
+ },
+ "splotch_of_paint:the_shroom": {
+  "asset_id": "splotch_of_paint:the_shroom",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.the_shroom.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.the_shroom.author"
+  }
+ },
+ "splotch_of_paint:rough_seas": {
+  "asset_id": "splotch_of_paint:rough_seas",
+  "width": 3,
+  "height": 4,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.rough_seas.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.rough_seas.author"
+  }
+ },
+ "splotch_of_paint:weeping_by_the_river": {
+  "asset_id": "splotch_of_paint:weeping_by_the_river",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.weeping_by_the_river.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.weeping_by_the_river.author"
+  }
+ },
+ "splotch_of_paint:sulphuric_hollows": {
+  "asset_id": "splotch_of_paint:sulphuric_hollows",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.sulphuric_hollows.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.sulphuric_hollows.author"
+  }
+ },
+ "splotch_of_paint:wonderous_beyond": {
+  "asset_id": "splotch_of_paint:wonderous_beyond",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.wonderous_beyond.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.wonderous_beyond.author"
+  }
+ },
+ "splotch_of_paint:the_formless_stare": {
+  "asset_id": "splotch_of_paint:the_formless_stare",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.the_formless_stare.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.the_formless_stare.author"
+  }
+ },
+ "splotch_of_paint:wet_pastures": {
+  "asset_id": "splotch_of_paint:wet_pastures",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.wet_pastures.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.wet_pastures.author"
+  }
+ },
+ "splotch_of_paint:the_wanderer": {
+  "asset_id": "splotch_of_paint:the_wanderer",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.the_wanderer.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.the_wanderer.author"
+  }
+ },
+ "splotch_of_paint:wizards_tower": {
+  "asset_id": "splotch_of_paint:wizards_tower",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.wizards_tower.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.wizards_tower.author"
+  }
+ },
+ "splotch_of_paint:warped_petals": {
+  "asset_id": "splotch_of_paint:warped_petals",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.warped_petals.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.warped_petals.author"
+  }
+ },
+ "splotch_of_paint:fall_comes_for_the_ruins": {
+  "asset_id": "splotch_of_paint:fall_comes_for_the_ruins",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.fall_comes_for_the_ruins.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.fall_comes_for_the_ruins.author"
+  }
+ },
+ "splotch_of_paint:the_glare": {
+  "asset_id": "splotch_of_paint:the_glare",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.the_glare.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.the_glare.author"
+  }
+ },
+ "splotch_of_paint:treehouse_living": {
+  "asset_id": "splotch_of_paint:treehouse_living",
+  "width": 3,
+  "height": 4,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.treehouse_living.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.treehouse_living.author"
+  }
+ },
+ "splotch_of_paint:far_away_lands": {
+  "asset_id": "splotch_of_paint:far_away_lands",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.far_away_lands.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.far_away_lands.author"
+  }
+ },
+ "splotch_of_paint:flower_of_the_wild": {
+  "asset_id": "splotch_of_paint:flower_of_the_wild",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.flower_of_the_wild.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.flower_of_the_wild.author"
+  }
+ },
+ "splotch_of_paint:full_moon": {
+  "asset_id": "splotch_of_paint:full_moon",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.full_moon.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.full_moon.author"
+  }
+ },
+ "splotch_of_paint:halo_over_glass": {
+  "asset_id": "splotch_of_paint:halo_over_glass",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.halo_over_glass.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.halo_over_glass.author"
+  }
+ },
+ "splotch_of_paint:grave_on_the_hill": {
+  "asset_id": "splotch_of_paint:grave_on_the_hill",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.grave_on_the_hill.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.grave_on_the_hill.author"
+  }
+ },
+ "splotch_of_paint:heavy_is_the_crown": {
+  "asset_id": "splotch_of_paint:heavy_is_the_crown",
+  "width": 1,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.heavy_is_the_crown.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.heavy_is_the_crown.author"
+  }
+ },
+ "splotch_of_paint:life_in_the_sky": {
+  "asset_id": "splotch_of_paint:life_in_the_sky",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.life_in_the_sky.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.life_in_the_sky.author"
+  }
+ },
+ "splotch_of_paint:light_after_the_fight": {
+  "asset_id": "splotch_of_paint:light_after_the_fight",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.light_after_the_fight.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.light_after_the_fight.author"
+  }
+ },
+ "splotch_of_paint:lively_canopy": {
+  "asset_id": "splotch_of_paint:lively_canopy",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.lively_canopy.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.lively_canopy.author"
+  }
+ },
+ "splotch_of_paint:inventors_lair": {
+  "asset_id": "splotch_of_paint:inventors_lair",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.inventors_lair.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.inventors_lair.author"
+  }
+ },
+ "splotch_of_paint:lost_to_nature": {
+  "asset_id": "splotch_of_paint:lost_to_nature",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.lost_to_nature.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.lost_to_nature.author"
+  }
+ },
+ "splotch_of_paint:islands_in_the_sky": {
+  "asset_id": "splotch_of_paint:islands_in_the_sky",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.islands_in_the_sky.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.islands_in_the_sky.author"
+  }
+ },
+ "splotch_of_paint:lady_of_the_manor": {
+  "asset_id": "splotch_of_paint:lady_of_the_manor",
+  "width": 3,
+  "height": 4,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.lady_of_the_manor.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.lady_of_the_manor.author"
+  }
+ },
+ "splotch_of_paint:lone_twisted_tree": {
+  "asset_id": "splotch_of_paint:lone_twisted_tree",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.lone_twisted_tree.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.lone_twisted_tree.author"
+  }
+ },
+ "splotch_of_paint:laughing_pumpkins": {
+  "asset_id": "splotch_of_paint:laughing_pumpkins",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.laughing_pumpkins.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.laughing_pumpkins.author"
+  }
+ },
+ "splotch_of_paint:icy_monolith": {
+  "asset_id": "splotch_of_paint:icy_monolith",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.icy_monolith.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.icy_monolith.author"
+  }
+ },
+ "splotch_of_paint:haunting_visage": {
+  "asset_id": "splotch_of_paint:haunting_visage",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.haunting_visage.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.haunting_visage.author"
+  }
+ },
+ "splotch_of_paint:mansion_in_the_woods": {
+  "asset_id": "splotch_of_paint:mansion_in_the_woods",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.mansion_in_the_woods.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.mansion_in_the_woods.author"
+  }
+ },
+ "splotch_of_paint:lonely_light": {
+  "asset_id": "splotch_of_paint:lonely_light",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.lonely_light.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.lonely_light.author"
+  }
+ },
+ "splotch_of_paint:mystic_essences": {
+  "asset_id": "splotch_of_paint:mystic_essences",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.mystic_essences.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.mystic_essences.author"
+  }
+ },
+ "splotch_of_paint:prehistoric_goop": {
+  "asset_id": "splotch_of_paint:prehistoric_goop",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.prehistoric_goop.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.prehistoric_goop.author"
+  }
+ },
+ "splotch_of_paint:rising_kelp": {
+  "asset_id": "splotch_of_paint:rising_kelp",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.rising_kelp.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.rising_kelp.author"
+  }
+ },
+ "splotch_of_paint:peaceful_night": {
+  "asset_id": "splotch_of_paint:peaceful_night",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.peaceful_night.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.peaceful_night.author"
+  }
+ },
+ "splotch_of_paint:rune_stone": {
+  "asset_id": "splotch_of_paint:rune_stone",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.rune_stone.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.rune_stone.author"
+  }
+ },
+ "splotch_of_paint:menacing_portrait": {
+  "asset_id": "splotch_of_paint:menacing_portrait",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.menacing_portrait.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.menacing_portrait.author"
+  }
+ },
+ "splotch_of_paint:old_giant": {
+  "asset_id": "splotch_of_paint:old_giant",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.old_giant.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.old_giant.author"
+  }
+ },
+ "splotch_of_paint:reaching_from_the_deep": {
+  "asset_id": "splotch_of_paint:reaching_from_the_deep",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.reaching_from_the_deep.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.reaching_from_the_deep.author"
+  }
+ },
+ "splotch_of_paint:planter_pot_horizon": {
+  "asset_id": "splotch_of_paint:planter_pot_horizon",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.planter_pot_horizon.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.planter_pot_horizon.author"
+  }
+ },
+ "splotch_of_paint:shark_waters": {
+  "asset_id": "splotch_of_paint:shark_waters",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.shark_waters.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.shark_waters.author"
+  }
+ },
+ "splotch_of_paint:skeletons_cards": {
+  "asset_id": "splotch_of_paint:skeletons_cards",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.skeletons_cards.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.skeletons_cards.author"
+  }
+ },
+ "splotch_of_paint:new_adventure": {
+  "asset_id": "splotch_of_paint:new_adventure",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.new_adventure.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.new_adventure.author"
+  }
+ },
+ "splotch_of_paint:psychadelia": {
+  "asset_id": "splotch_of_paint:psychadelia",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.psychadelia.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.psychadelia.author"
+  }
+ },
+ "splotch_of_paint:synth_dreams": {
+  "asset_id": "splotch_of_paint:synth_dreams",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.synth_dreams.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.synth_dreams.author"
+  }
+ },
+ "splotch_of_paint:serenity_and_hot_water": {
+  "asset_id": "splotch_of_paint:serenity_and_hot_water",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.serenity_and_hot_water.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.serenity_and_hot_water.author"
+  }
+ },
+ "splotch_of_paint:scorching_heat": {
+  "asset_id": "splotch_of_paint:scorching_heat",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.scorching_heat.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.scorching_heat.author"
+  }
+ },
+ "splotch_of_paint:scenic_mountain_range": {
+  "asset_id": "splotch_of_paint:scenic_mountain_range",
+  "width": 3,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.scenic_mountain_range.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.scenic_mountain_range.author"
+  }
+ },
+ "splotch_of_paint:silence_and_fear": {
+  "asset_id": "splotch_of_paint:silence_and_fear",
+  "width": 3,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.silence_and_fear.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.silence_and_fear.author"
+  }
+ },
+ "splotch_of_paint:somewhere_up_north": {
+  "asset_id": "splotch_of_paint:somewhere_up_north",
+  "width": 1,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.somewhere_up_north.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.somewhere_up_north.author"
+  }
+ },
+ "splotch_of_paint:sunny_cove_blossom": {
+  "asset_id": "splotch_of_paint:sunny_cove_blossom",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.sunny_cove_blossom.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.sunny_cove_blossom.author"
+  }
+ },
+ "splotch_of_paint:restaurant_scenery": {
+  "asset_id": "splotch_of_paint:restaurant_scenery",
+  "width": 3,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.restaurant_scenery.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.restaurant_scenery.author"
+  }
+ },
+ "splotch_of_paint:sandy_monolith": {
+  "asset_id": "splotch_of_paint:sandy_monolith",
+  "width": 4,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.sandy_monolith.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.sandy_monolith.author"
+  }
+ },
+ "splotch_of_paint:never_returning": {
+  "asset_id": "splotch_of_paint:never_returning",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.never_returning.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.never_returning.author"
+  }
+ },
+ "splotch_of_paint:toxic_world": {
+  "asset_id": "splotch_of_paint:toxic_world",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.toxic_world.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.toxic_world.author"
+  }
+ },
+ "splotch_of_paint:torn_memory": {
+  "asset_id": "splotch_of_paint:torn_memory",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.torn_memory.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.torn_memory.author"
+  }
+ },
+ "splotch_of_paint:nestled_in_the_bushes": {
+  "asset_id": "splotch_of_paint:nestled_in_the_bushes",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.nestled_in_the_bushes.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.nestled_in_the_bushes.author"
+  }
+ },
+ "splotch_of_paint:tornado_season": {
+  "asset_id": "splotch_of_paint:tornado_season",
+  "width": 2,
+  "height": 1,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.tornado_season.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.tornado_season.author"
+  }
+ },
+ "splotch_of_paint:snow_and_solitude": {
+  "asset_id": "splotch_of_paint:snow_and_solitude",
+  "width": 3,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.snow_and_solitude.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.snow_and_solitude.author"
+  }
+ },
+ "splotch_of_paint:scopaesthesia": {
+  "asset_id": "splotch_of_paint:scopaesthesia",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.scopaesthesia.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.scopaesthesia.author"
+  }
+ },
+ "splotch_of_paint:tree_of_serenity": {
+  "asset_id": "splotch_of_paint:tree_of_serenity",
+  "width": 4,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.tree_of_serenity.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.tree_of_serenity.author"
+  }
+ },
+ "splotch_of_paint:vibrant_jungle_life": {
+  "asset_id": "splotch_of_paint:vibrant_jungle_life",
+  "width": 3,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.vibrant_jungle_life.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.vibrant_jungle_life.author"
+  }
+ },
+ "splotch_of_paint:witches_take_flight": {
+  "asset_id": "splotch_of_paint:witches_take_flight",
+  "width": 4,
+  "height": 4,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.witches_take_flight.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.witches_take_flight.author"
+  }
+ },
+ "splotch_of_paint:workshop_accident": {
+  "asset_id": "splotch_of_paint:workshop_accident",
+  "width": 2,
+  "height": 2,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.workshop_accident.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.workshop_accident.author"
+  }
+ },
+ "splotch_of_paint:woodpecker_bird": {
+  "asset_id": "splotch_of_paint:woodpecker_bird",
+  "width": 2,
+  "height": 3,
+  "title": {
+   "color": "dark_purple",
+   "translate": "painting.splotch_of_paint.woodpecker_bird.title"
+  },
+  "author": {
+   "color": "gold",
+   "translate": "painting.splotch_of_paint.woodpecker_bird.author"
+  }
+ }
+}
