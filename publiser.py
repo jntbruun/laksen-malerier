@@ -24,12 +24,15 @@ GITHUB_REPO = "jntbruun/laksen-malerier"
 KEY_FILE = build.ROOT / ".panel-nokkel"
 # python.org builds on macOS ship without root certificates; certifi brings its own.
 TLS = ssl.create_default_context(cafile=certifi.where())
+# Cloudflare in front of the panel blocks the default "Python-urllib" user agent (error 1010).
+USER_AGENT = "laksen-malerier/1.0"
 
 
 def panel(method: str, path: str, body: bytes | None = None, content_type: str = "application/json") -> bytes:
     request = urllib.request.Request(f"{PANEL}/api/client/servers/{SERVER_ID}/{path}", data=body, method=method)
     request.add_header("Authorization", f"Bearer {KEY_FILE.read_text().strip()}")
     request.add_header("Accept", "application/json")
+    request.add_header("User-Agent", USER_AGENT)
     if body is not None:
         request.add_header("Content-Type", content_type)
     with urllib.request.urlopen(request, context=TLS) as response:
@@ -44,6 +47,7 @@ def upload_datapack() -> None:
     body += build.DATAPACK_ZIP.read_bytes() + f"\r\n--{boundary}--\r\n".encode()
     request = urllib.request.Request(f"{upload_url}&directory=/world/datapacks", data=body, method="POST")
     request.add_header("Content-Type", f"multipart/form-data; boundary={boundary}")
+    request.add_header("User-Agent", USER_AGENT)
     urllib.request.urlopen(request, context=TLS).read()
 
 
