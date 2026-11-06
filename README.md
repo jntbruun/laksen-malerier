@@ -11,7 +11,7 @@ Egne malerier på Laksen-serveren. Legg et vanlig maleri i en **stonecutter** og
 
 Vil du bare se resultatet lokalt først: **Bygg malerier.command**.
 
-Bilder strekkes til formatet (ingenting kuttes bort) og skaleres ned til 128 px per blokk. Bruk png eller jpg (ikke HEIC).
+Bilder strekkes til formatet (ingenting kuttes bort) og skaleres ned til 256 px per blokk. Bruk png eller jpg (ikke HEIC).
 
 ### Første gang på en ny maskin
 
@@ -51,7 +51,7 @@ Ressurspakken er hele Laksen-pakken (`base-resourcepack/`) pluss maleriene. Endr
 
 Øverst i `build.py`:
 
-- `PX_PER_BLOCK` (128): oppløsning. Høyere = skarpere, men tyngre pakke.
+- `PX_PER_BLOCK` (256): oppløsning. Høyere = skarpere, men tyngre pakke.
 - `AUTO_LONGEST_SIDE` (4): standardstørrelse.
 - `ONLY_OWN_PAINTINGS_WHEN_RANDOM` (True): et vanlig maleri som henges opp uten å velge, blir et av deres egne, aldri et vanilla-maleri.
 

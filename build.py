@@ -21,9 +21,9 @@ from pathlib import Path
 from PIL import Image, ImageOps
 
 NAMESPACE = "laksen"
-# Vanilla er 16 px per blokk. 128 gir skarpe bilder uten å sprenge texture-atlaset
+# Vanilla er 16 px per blokk. 256 gir skarpe bilder; atlaset blir ~4600² (ca. 85 MB VRAM).
 # eller nedlastingen; originalene var opptil 4000 px og gjorde pakken 150 MB.
-PX_PER_BLOCK = 128
+PX_PER_BLOCK = 256
 AUTO_LONGEST_SIDE = 4  # blokker, når filnavnet ikke sier noe annet
 MAX_SIDE = 16  # Minecraft sin grense for malerier
 # True: tilfeldig plasserte malerier (vanlig painting-item) blir bare deres egne.
