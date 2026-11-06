@@ -3,19 +3,37 @@
     "id": "laksen:705_kristoffer_joner",
     "file": "705 kristoffer joner (1x1).png",
     "sha1": "1308f47197c3212a9948b8d4fa88296f08633932",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "splotch_of_paint:colourful_feathers",
     "file": "Adalbert Waagen/Hunting in the Alps (2x3).png",
     "sha1": "2028de8ff489b2f72aeee8ddb264d66aae8611dc",
-    "rute": 34
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:bondeinterior_fra_skjonne",
+    "file": "Adolph Tidemand/Bondeinteriør fra Skjønne (3x2).png",
+    "sha1": "5772805e6495ed5b5a205b67caa9b3e973a0869a",
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "splotch_of_paint:eastern_vistas",
-    "file": "Adolf Tidemand/Norsk juleskik (3x3).png",
+    "file": "Adolph Tidemand/Norsk juleskik (3x3).png",
     "sha1": "9525220a9ff65198ffe6b1f812dfd727fd82fe0c",
-    "rute": 34,
+    "rute": [
+      34,
+      0,
+      0
+    ],
     "aliases": [
       {
         "id": "splotch_of_paint:wet_pastures",
@@ -30,34 +48,92 @@
     ]
   },
   {
+    "id": "laksen:til_seters",
+    "file": "Adolph Tidemand/Til seters (3x4).png",
+    "sha1": "82fcaca39048033c4d031dace055c58145cbf999",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
     "id": "minecraft:orb",
     "file": "Brigaden (4x4).png",
     "sha1": "12e3c7161b018940ba40a88c24556a8f45ccf312",
-    "rute": 0
+    "rute": false
+  },
+  {
+    "id": "laksen:vandrer_over_taakehavet",
+    "file": "Caspar David Friedrich/Vandrer over Tåkehavet (1x2).png",
+    "sha1": "7947a691593d737932e194d064eef96931ac381b",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:arbeidere_paa_hjemvei",
+    "file": "Edvard Munch/Arbeidere på hjemvei (3x2).png",
+    "sha1": "25d47ab34f363bf2e3efae312b8b1f8ed18b19b4",
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "laksen:ubudne_gjester",
     "file": "Edvard Munch/Ubudne Gjester (1x1).png",
     "sha1": "4bdcb4f5d75f4abaa296e10c0f7e2fcba7246dc1",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "laksen:ubudne_gjester_2",
     "file": "Edvard Munch/Ubudne Gjester (3x2).png",
     "sha1": "72a5274c786abf19051645838833f02dae06a960",
-    "rute": 34
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:la_femme_et_la_fleur",
+    "file": "Fernand Léger/La Femme et la Fleur (1x1).png",
+    "sha1": "4d57fd670218f959fa47cc02a0c1fd1c1376e5f4",
+    "rute": [
+      34,
+      4,
+      27
+    ]
+  },
+  {
+    "id": "laksen:la_femme_et_la_fleur_2",
+    "file": "Fernand Léger/La Femme et la Fleur (2x2).png",
+    "sha1": "8b4ca7c2100221c4cb3f81eb2158ab0d68a06a0e",
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "repo_paintings:armadillo",
     "file": "Flynderøy kommune (2x1).png",
     "sha1": "2443e3656b1b477b813e15dcde1d5c97412b9929",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "splotch_of_paint:lively_canopy",
     "file": "Francisco Goya/Heksesabbat (3x3).png",
     "sha1": "5624d1f49f579dc0f5a224707e68689806bb4b15",
-    "rute": 0,
+    "rute": [
+      35,
+      26,
+      26
+    ],
     "aliases": [
       {
         "id": "splotch_of_paint:workshop_accident",
@@ -70,13 +146,17 @@
     "id": "minecraft:meditative",
     "file": "Gjedda (1x1).png",
     "sha1": "87ccc8a52c2a431c84579281d8b1af669793a6a7",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "splotch_of_paint:the_shroom",
     "file": "Greg Beecham/Gladness of Heart (3x3).png",
     "sha1": "e1f2e019ace317168d6168150b39412d1155bd48",
-    "rute": 34,
+    "rute": [
+      34,
+      0,
+      0
+    ],
     "aliases": [
       {
         "id": "splotch_of_paint:bygone_glyphs",
@@ -89,31 +169,51 @@
     "id": "repo_paintings:beautyful",
     "file": "Gustav Klimt/Kysset (1x2).png",
     "sha1": "d8cc6cff52cd92d567cccd9dc338174512e9d377",
-    "rute": 0
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "repo_paintings:dog",
     "file": "Gustav Klimt/Kysset (utsnitt) (1x1).png",
     "sha1": "4b6e4ee695fca9e9f6680d32a61cdf365d96f414",
-    "rute": 17
+    "rute": [
+      34,
+      0,
+      17
+    ]
   },
   {
     "id": "splotch_of_paint:house_away_from_sol",
     "file": "Hans Dahl/Siste stråler (3x2).png",
     "sha1": "1112f828075db1f8d47cfba19ebc877e658d2347",
-    "rute": 34
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "splotch_of_paint:blooming_chorus_field",
     "file": "Hans Gude/Foss i Hallingdal (2x3).png",
     "sha1": "8c9d0b73dddac0822ac728ef0559b8112482f513",
-    "rute": 34
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "splotch_of_paint:frozen_bones",
     "file": "Hans Gude/Fra Vossevangen (3x2).png",
     "sha1": "aa7f91ef8f71d377257b625fcbeb876c849aae20",
-    "rute": 34,
+    "rute": [
+      34,
+      0,
+      0
+    ],
     "aliases": [
       {
         "id": "minecraft:skeleton",
@@ -123,160 +223,270 @@
     ]
   },
   {
+    "id": "laksen:landskap_med_buskap_og_foss",
+    "file": "Hans Gude/Landskap med buskap og foss (1x1).png",
+    "sha1": "c2f1c054d77777075006b39959b7dae1b2c1459f",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:landskap_med_buskap_og_foss_2",
+    "file": "Hans Gude/Landskap med buskap og foss (2x2).png",
+    "sha1": "6838b0de793f9b933ad3f052fc42d054099a9e0b",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:tessefossen_i_vaagaa_i_middagsbelysning",
+    "file": "Hans Gude/Tessefossen i Vågå i Middagsbelysning (2x2).png",
+    "sha1": "fd52d77ddefb4e2e4911b2149f96d66ac8b4af56",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:vinterettermiddag",
+    "file": "Hans Gude/Vinterettermiddag (3x2).png",
+    "sha1": "efef51207146eeb3239eb6c64baf8bbbbcb02299",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
     "id": "repo_paintings:bananas",
     "file": "Horkålen kommune (2x1).png",
     "sha1": "f76973eef39ffa4ef1c378c9377891f821227be4",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "splotch_of_paint:fall_comes_for_the_ruins",
     "file": "Huset som flyr (4x2).png",
     "sha1": "ba99d83de9e2d58bf3282dde80a7394291520580",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "repo_paintings:apples",
     "file": "Hvalvik kommune (2x1).png",
     "sha1": "425b190f298d398a7374282b68c2caea28d24583",
-    "rute": 0
+    "rute": false
+  },
+  {
+    "id": "laksen:ikke_gjor_det",
+    "file": "IKKE GJØR DET!!! (3x2).png",
+    "sha1": "716085327e2639b89222ab786958c32871f66248",
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "splotch_of_paint:distant_rings",
     "file": "Ildhest (1x1).png",
     "sha1": "6ba227b658e771a98ee8382d83f89a460e182df5",
-    "rute": 17
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "splotch_of_paint:alluring_allurestems",
     "file": "Ildhest (2x3).png",
     "sha1": "21f07b3f08727090e2361c4d9db93fe4f6490606",
-    "rute": 34
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "minecraft:kebab",
     "file": "Indre Laksen (1x1).png",
     "sha1": "4c9d71862ef8a64afe00668a6eae378a86682b42",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "repo_paintings:anger",
     "file": "Jacques-Louis David/Marats død (1x2).png",
     "sha1": "c7c194bf7af13f3966bbd3f67137cebe9e58d83a",
-    "rute": 42
+    "rute": [
+      42,
+      0,
+      0
+    ]
   },
   {
     "id": "repo_paintings:beige_abstraction",
     "file": "Jean-Léon Gérôme/Pollice verso (2x1).png",
     "sha1": "0867b5a9d72e01cd5a384cc8cb43b129b5d90342",
-    "rute": 0
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "splotch_of_paint:challenging_the_storm",
     "file": "Johan Christian Dahl/Fra Stalheim (3x2).png",
     "sha1": "e158e9eafd994c78ecbd611ab9cc3e6d9bafd77a",
-    "rute": 34
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:folkeliv_under_romsdalshorn",
+    "file": "Johan Fredrik Eckersberg/Folkeliv under Romsdalshorn (1x1).png",
+    "sha1": "a330bdeaa9cdc0cca4b4863a1e036386cbacaf36",
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "splotch_of_paint:an_evening_lightshow",
     "file": "Jungelstien (4x2).png",
     "sha1": "4abb0c0e82ad7604382f86a94d523524d8677ee4",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "splotch_of_paint:vibrant_jungle_life",
     "file": "Kart over Laksen (3x2).png",
     "sha1": "fa870eef0eac4a8a1423ae5d705576525db1d334",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "splotch_of_paint:warped_petals",
     "file": "Kart over øya (2x3).png",
     "sha1": "cc6836c8d69ef2d8ed3ad759f60c194298a1e25b",
-    "rute": 0
+    "rute": false
+  },
+  {
+    "id": "laksen:untitled",
+    "file": "Keith Haring/Untitled (1x1).png",
+    "sha1": "b404e1484f6aa0a0cba9a27317911d7556324e6b",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:untitled_2",
+    "file": "Keith Haring/Untitled (2x2).png",
+    "sha1": "35547df662c4a8180c2bff0d37b1b6bea729d2d5",
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "splotch_of_paint:sulphuric_hollows",
     "file": "Kirken om natten (4x2).png",
     "sha1": "b30fbdd8e4a5c30adebbf16b51c427af9016d703",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "repo_paintings:euphoria",
     "file": "Kommunegrensen (4x2).png",
     "sha1": "420942593e78ff6f726674c813c771f23f29feff",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "minecraft:plant",
     "file": "Laksen (1x1).png",
     "sha1": "50a792ce567ae049c2896cf39d89b656b6a16694",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "splotch_of_paint:weeping_by_the_river",
     "file": "Laksen fra lufta (4x2).png",
     "sha1": "96c56657b4ef3874d67017159e5defc83a873c87",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "minecraft:alban",
     "file": "Laksen veg og sti (1x1).png",
     "sha1": "b130da0080f403e83956e7e5fd8e9a93909c72b9",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "minecraft:burning_skull",
     "file": "Laksen veg og sti (4x4).png",
     "sha1": "90225ed71b7d09fd73e21c04b8a18173159b7160",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "minecraft:sunset",
     "file": "Lakshus kommune (2x1).png",
     "sha1": "103e0c28c07f9f3134f5cf29654891ac852b42fc",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "minecraft:cavebird",
     "file": "Lakshus våpen (3x3).png",
     "sha1": "d249408a654d9c705db2d2faecbab8f2cebaf98a",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "minecraft:aztec",
     "file": "Laksonnja (1x1).png",
     "sha1": "987d1e4fb1cf2469990e03dba951aea5b47cda58",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "minecraft:wasteland",
     "file": "Laksø (1x1).png",
     "sha1": "5569110a9a9df1ca551a281ccc2e079d3c520d80",
-    "rute": 0
+    "rute": false
+  },
+  {
+    "id": "laksen:laavesvale",
+    "file": "Låvesvale (1x1).png",
+    "sha1": "b554036a01ea5982c52417e03ce8bcc78c35c247",
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "minecraft:courbet",
     "file": "Midtre Laksen kommune (2x1).png",
     "sha1": "95377d1c1fa465e352a194dd8d8b7d6b204546d0",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "minecraft:bomb",
     "file": "Midtre Laksen naturoppsyn (1x1).png",
     "sha1": "c94baf7e7d285e0253a06afe1f55e09a74391ce6",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "minecraft:pigscene",
     "file": "Midtre Laksen naturoppsyn (4x4).png",
     "sha1": "a13c466c6dd222456620d846a4078d2f7a1eb7ae",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "minecraft:aztec2",
     "file": "Midtre Laksen våpen (1x1).png",
     "sha1": "897caf1e864823e0adcef4d1513e183ba088bf67",
-    "rute": 0,
+    "rute": false,
     "aliases": [
       {
         "id": "minecraft:bouquet",
@@ -294,7 +504,11 @@
     "id": "splotch_of_paint:never_returning",
     "file": "Norbertine von Bresslern-Roth/Snow leopard (3x3).png",
     "sha1": "220355bba45c773184905c42f17193f11eb1c38e",
-    "rute": 34,
+    "rute": [
+      34,
+      0,
+      0
+    ],
     "aliases": [
       {
         "id": "splotch_of_paint:classic_fruit_bowl",
@@ -309,70 +523,112 @@
     ]
   },
   {
+    "id": "laksen:spiel_im_wasser",
+    "file": "Norbertine von Bresslern-Roth/Spiel im Wasser (2x2).png",
+    "sha1": "3275c6972253ee854ba302a24f08636ef90d5905",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
     "id": "splotch_of_paint:woodpecker_bird",
     "file": "Paul Baudry/Charlotte Corday (2x3).png",
     "sha1": "506c7ea217acc3bd2f3809571e5e4e51c1103c0a",
-    "rute": 34
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "splotch_of_paint:starry_barrens",
     "file": "Portrett (3x2).png",
     "sha1": "a13a91e98beb80efd6ae410e7b329a51d75e4a51",
-    "rute": 34
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "minecraft:sea",
     "file": "Røyebu kommune (2x1).png",
     "sha1": "d67095d06720ab777c65b92b403b01ffdc41396c",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "minecraft:pool",
     "file": "Sildbu kommune (2x1).png",
     "sha1": "2eaac4c5324be3f94a90649953d89fc36882ddb4",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "splotch_of_paint:flower_of_the_wild",
     "file": "Snøleopard (2x3).png",
     "sha1": "2fa99bdbdc64e6b7bbb2ce39494d6ed9b6997d90",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "splotch_of_paint:old_road",
     "file": "Solnedgang fra tårnet (4x2).png",
     "sha1": "df8f6fe114c8780aae95c0134cb79865025bc0d6",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "splotch_of_paint:sandy_monolith",
     "file": "Soloppgang over byen (4x2).png",
     "sha1": "1778995bfcaa5d973ba42dda77958855a4306bdd",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "repo_paintings:burning_swamp",
     "file": "Tempelet i høstskogen (4x2).png",
     "sha1": "9884c5d7ff16d46bbb9a1eca39a2378e89f9ffce",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "minecraft:fighters",
     "file": "Tempelet ved obelisken (4x2).png",
     "sha1": "f02c7303e5f798339890e865e0cf9ece94691456",
-    "rute": 0
+    "rute": false
+  },
+  {
+    "id": "laksen:ekko",
+    "file": "Theodor Kittelsen/Ekko (1x2).png",
+    "sha1": "b0aea78f03837c6b842d06e344e7fe3b61c453d0",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:ekko_2",
+    "file": "Theodor Kittelsen/Ekko (2x3).png",
+    "sha1": "456308c48414a6dfa72fea6c63451f6f8349f944",
+    "rute": false
   },
   {
     "id": "splotch_of_paint:cozy_bay",
     "file": "Theodor Kittelsen/Gutt på hvit hest (3x2).png",
     "sha1": "7ade10557d7bda71d7571a024273cbeb0189b84c",
-    "rute": 34
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "splotch_of_paint:islands_in_the_sky",
     "file": "Theodor Kittelsen/Kvitebjørn kong Valemon (2x3).png",
     "sha1": "4357d4f9c3ee3fb2d17cec4378159a94faf80d2f",
-    "rute": 34,
+    "rute": [
+      34,
+      0,
+      0
+    ],
     "aliases": [
       {
         "id": "splotch_of_paint:treehouse_living",
@@ -385,7 +641,11 @@
     "id": "splotch_of_paint:in_the_heart_of_the_savanna",
     "file": "Theodor Kittelsen/Langt, langt borte saa han noget lyse og glitre (3x2).png",
     "sha1": "753ee6edb46247e072cb7e55537454dba55cea99",
-    "rute": 34,
+    "rute": [
+      34,
+      0,
+      0
+    ],
     "aliases": [
       {
         "id": "splotch_of_paint:tree_of_serenity",
@@ -398,7 +658,11 @@
     "id": "splotch_of_paint:on_the_bones_of_colossi",
     "file": "Theodor Kittelsen/Soria Moria slott (4x3).png",
     "sha1": "4d891fb86b236f10fe906696436175296f5f4983",
-    "rute": 34,
+    "rute": [
+      34,
+      0,
+      0
+    ],
     "aliases": [
       {
         "id": "splotch_of_paint:restaurant_scenery",
@@ -411,30 +675,48 @@
     "id": "splotch_of_paint:afternoon_dance",
     "file": "Theodor Kittelsen/Tre ekorn i flukt (3x2).png",
     "sha1": "85a883af4c0b4643f951873fa809f51e75864c35",
-    "rute": 34
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:odegaard",
+    "file": "Theodor Kittelsen/Ødegård (3x2).png",
+    "sha1": "4b76453e3b6511c6712055ec8ec22d8144ca3111",
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "minecraft:creebet",
     "file": "Torskland kommune (2x1).png",
     "sha1": "31bd23df0ed6858aa15eba662fd0aa5926a417bf",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "minecraft:changing",
     "file": "Ved kommuneskiltet (4x2).png",
     "sha1": "6efda1f7339e600f5a108e83155d9cd339b5d6ff",
-    "rute": 0
+    "rute": false
   },
   {
     "id": "minecraft:donkey_kong",
     "file": "Vidda (4x3).png",
     "sha1": "905182ae11e9d43b89e5c75a80c7031fb29819c1",
-    "rute": 34
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "minecraft:match",
     "file": "Welcome to Laksen (2x2).png",
     "sha1": "0b8d860f27ab890a72a49d2268a3ba3999383528",
-    "rute": 0
+    "rute": false
   }
 ]

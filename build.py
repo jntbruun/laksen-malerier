@@ -97,8 +97,9 @@ def assign_stable_ids(paintings: list[dict]) -> None:
     for painting in paintings:
         painting["sha1"] = file_sha1(painting["path"])
         previous = by_sha.get(painting["sha1"]) or by_file.get(painting["file"])
-        if previous and previous.get("sha1") == painting["sha1"] and "rute" in previous:
-            painting["cell"] = previous["rute"]
+        # Cached grid from an earlier build; plain numbers are from an older detector, so redo those.
+        if previous and previous.get("sha1") == painting["sha1"] and isinstance(previous.get("rute"), (list, bool)):
+            painting["grid"] = tuple(previous["rute"]) if previous["rute"] else None
         if previous and previous["id"] not in claimed:
             painting["id"] = previous["id"]
             painting["aliases"] = previous.get("aliases", [])
@@ -113,11 +114,11 @@ def assign_stable_ids(paintings: list[dict]) -> None:
     current = []
     for p in paintings:
         entry = {"id": p["id"], "file": p["file"], "sha1": p["sha1"]}
-        if "cell" not in p:
-            p["cell"] = detect_mosaic_cell(p["path"])
-            if p["cell"]:
-                print(f"  {p['file']}: pikselert med {p['cell']} px ruter, bygges i egen oppløsning")
-        entry["rute"] = p["cell"]
+        if "grid" not in p:
+            p["grid"] = detect_mosaic_grid(p["path"])
+            if p["grid"]:
+                print(f"  {p['file']}: pikselert med {p['grid'][0]} px ruter, bygges i egen oppløsning")
+        entry["rute"] = list(p["grid"]) if p["grid"] else False
         if p["aliases"]:
             entry["aliases"] = p["aliases"]
         current.append(entry)
@@ -134,30 +135,58 @@ def split_id(painting_id: str) -> tuple[str, str]:
     return namespace, path
 
 
-def detect_mosaic_cell(path: Path) -> int:
-    """Size of the square Photoshop Mosaic cells in the image, or 0 if it isn't pixelated.
-    Mosaic cells start in the top-left corner, so a cell size fits if (almost) every pixel
-    matches the top-left pixel of its cell. The largest fitting size is the real one."""
+def _edge_bounds(pixels: np.ndarray, axis: int) -> np.ndarray:
+    """Positions along one axis where a strong colour edge starts, from ~150 sampled lines."""
+    lines = pixels if axis == 1 else pixels.transpose(1, 0, 2)
+    lines = lines[:: max(1, lines.shape[0] // 150)]
+    jump = np.max(np.abs(lines[:, 1:] - lines[:, :-1]), axis=2)
+    return np.nonzero(jump > 24)[1] + 1
+
+
+def _residue(bounds: np.ndarray, cell: int) -> tuple[int, float]:
+    """Most common position of the edges inside a cell, and the share of edges that land there."""
+    counts = np.bincount(bounds % cell, minlength=cell)
+    return int(counts.argmax()), counts.max() / len(bounds)
+
+
+def detect_mosaic_grid(path: Path) -> tuple[int, int, int] | None:
+    """(cell, x offset, y offset) of Photoshop Mosaic cells, or None if the image isn't pixelated.
+    In a mosaic every colour edge lies on the cell grid, so edge positions modulo the real cell
+    size pile up in one spot. That survives frames, crops and grids that don't start in the corner.
+    The largest cell size that piles up is the real one (half of it piles up too)."""
     with Image.open(path) as source:
         pixels = np.asarray(ImageOps.exif_transpose(source).convert("RGB")).astype(np.int16)
-    height, width, _ = pixels.shape
-    # Every 7th pixel is plenty and keeps a 4000 px image to a fraction of a second per size.
-    ys, xs = np.arange(1, height, 7), np.arange(1, width, 7)
-    sample = pixels[ys][:, xs]
-    for cell in range(min(PIXEL_ART_MAX_CELL, width // 4, height // 4), PIXEL_ART_MIN_CELL - 1, -1):
-        corners = pixels[ys // cell * cell][:, xs // cell * cell]
-        if np.mean(np.max(np.abs(corners - sample), axis=2) <= 6) > 0.97:
-            return cell
-    return 0
+    bounds = [_edge_bounds(pixels, 1), _edge_bounds(pixels, 0)]
+    if min(len(b) for b in bounds) < 200:
+        return None  # flat graphics: too few edges to tell
+    best = [0, 0]
+    for axis in (0, 1):
+        for cell in range(PIXEL_ART_MIN_CELL, PIXEL_ART_MAX_CELL + 1):
+            if _residue(bounds[axis], cell)[1] >= 0.6:
+                best[axis] = cell
+    # One clear axis is enough if the other axis also lines up on that cell size.
+    for cell in sorted({c for c in best if c}, reverse=True):
+        (ox, sx), (oy, sy) = _residue(bounds[0], cell), _residue(bounds[1], cell)
+        if min(sx, sy) >= 0.4 and max(sx, sy) >= 0.6:
+            return cell, ox, oy
+    return None
 
 
-def native_pixel_art(image: Image.Image, cell: int) -> Image.Image:
-    """One texture pixel per mosaic cell, taken from the cell's centre where the colour is cleanest."""
+def native_pixel_art(image: Image.Image, grid: tuple[int, int, int]) -> Image.Image:
+    """One texture pixel per mosaic cell, taken from the cell's centre where the colour is cleanest.
+    A grid offset leaves a partial cell at the start; it becomes a pixel of its own."""
+    cell, ox, oy = grid
     pixels = np.asarray(image)
+
+    def centres(length: int, offset: int) -> np.ndarray:
+        starts = list(range(offset % cell, length, cell))
+        if starts[0] > 0:
+            starts.insert(0, 0)
+        ends = starts[1:] + [length]
+        return np.array([(s + e) // 2 for s, e in zip(starts, ends)])
+
     height, width, _ = pixels.shape
-    ys = np.minimum(np.arange(-(-height // cell)) * cell + cell // 2, height - 1)
-    xs = np.minimum(np.arange(-(-width // cell)) * cell + cell // 2, width - 1)
-    return Image.fromarray(pixels[ys][:, xs])
+    return Image.fromarray(pixels[centres(height, oy)][:, centres(width, ox)])
 
 
 def render_texture(painting: dict) -> Image.Image:
@@ -167,9 +196,9 @@ def render_texture(painting: dict) -> Image.Image:
     if not (1 <= width <= MAX_SIDE and 1 <= height <= MAX_SIDE):
         sys.exit(f"FEIL: {painting['file']}: størrelse {width}x{height} er utenfor 1-{MAX_SIDE} blokker.")
     painting["width"], painting["height"] = width, height
-    if painting.get("cell"):
+    if painting.get("grid"):
         # Minecraft draws paintings without smoothing, so each cell stays a sharp square.
-        return native_pixel_art(image, painting["cell"])
+        return native_pixel_art(image, painting["grid"])
     # Stretch, never crop: nothing in the picture disappears, and it matches how Minecraft drew the old ones.
     return image.resize((width * PX_PER_BLOCK, height * PX_PER_BLOCK), Image.Resampling.LANCZOS)
 

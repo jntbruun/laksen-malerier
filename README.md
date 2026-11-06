@@ -11,7 +11,7 @@ Egne malerier på Laksen-serveren. Legg et vanlig maleri i en **stonecutter** og
 
 Vil du bare se resultatet lokalt først: **Bygg malerier.command**.
 
-Bilder strekkes til formatet (ingenting kuttes bort) og skaleres ned til 256 px per blokk. Bilder pikselert i Photoshop (Filter → Pixelate → Mosaic, rute på minst 12 px) gjenkjennes og bygges i sin egen oppløsning, så hver rute blir skarp. Bruk png eller jpg (ikke HEIC).
+Bilder strekkes til formatet (ingenting kuttes bort) og skaleres ned til 256 px per blokk. Bilder pikselert i Photoshop (Filter → Pixelate → Mosaic, rute på 12–160 px, også med ramme eller forskjøvet rutenett) gjenkjennes og bygges i sin egen oppløsning, så hver rute blir skarp. Bruk png eller jpg (ikke HEIC).
 
 ### Første gang på en ny maskin
 
