@@ -18,6 +18,7 @@ import unicodedata
 import zipfile
 from pathlib import Path
 
+import numpy as np
 from PIL import Image, ImageOps
 
 NAMESPACE = "laksen"
@@ -25,6 +26,10 @@ NAMESPACE = "laksen"
 PX_PER_BLOCK = 256
 AUTO_LONGEST_SIDE = 4  # blokker, når filnavnet ikke sier noe annet
 MAX_SIDE = 16  # Minecraft sin grense for malerier
+# Bilder pikselert i Photoshop (Mosaic) bygges i sin egen oppløsning: én tekstur-piksel per rute.
+# Mindre ruter enn dette er bare glatte bilder som tilfeldigvis passer, ikke ekte pikselering.
+PIXEL_ART_MIN_CELL = 12
+PIXEL_ART_MAX_CELL = 160
 # True: tilfeldig plasserte malerier (vanlig painting-item) blir bare deres egne.
 ONLY_OWN_PAINTINGS_WHEN_RANDOM = True
 
@@ -92,6 +97,8 @@ def assign_stable_ids(paintings: list[dict]) -> None:
     for painting in paintings:
         painting["sha1"] = file_sha1(painting["path"])
         previous = by_sha.get(painting["sha1"]) or by_file.get(painting["file"])
+        if previous and previous.get("sha1") == painting["sha1"] and "rute" in previous:
+            painting["cell"] = previous["rute"]
         if previous and previous["id"] not in claimed:
             painting["id"] = previous["id"]
             painting["aliases"] = previous.get("aliases", [])
@@ -106,6 +113,11 @@ def assign_stable_ids(paintings: list[dict]) -> None:
     current = []
     for p in paintings:
         entry = {"id": p["id"], "file": p["file"], "sha1": p["sha1"]}
+        if "cell" not in p:
+            p["cell"] = detect_mosaic_cell(p["path"])
+            if p["cell"]:
+                print(f"  {p['file']}: pikselert med {p['cell']} px ruter, bygges i egen oppløsning")
+        entry["rute"] = p["cell"]
         if p["aliases"]:
             entry["aliases"] = p["aliases"]
         current.append(entry)
@@ -122,6 +134,32 @@ def split_id(painting_id: str) -> tuple[str, str]:
     return namespace, path
 
 
+def detect_mosaic_cell(path: Path) -> int:
+    """Size of the square Photoshop Mosaic cells in the image, or 0 if it isn't pixelated.
+    Mosaic cells start in the top-left corner, so a cell size fits if (almost) every pixel
+    matches the top-left pixel of its cell. The largest fitting size is the real one."""
+    with Image.open(path) as source:
+        pixels = np.asarray(ImageOps.exif_transpose(source).convert("RGB")).astype(np.int16)
+    height, width, _ = pixels.shape
+    # Every 7th pixel is plenty and keeps a 4000 px image to a fraction of a second per size.
+    ys, xs = np.arange(1, height, 7), np.arange(1, width, 7)
+    sample = pixels[ys][:, xs]
+    for cell in range(min(PIXEL_ART_MAX_CELL, width // 4, height // 4), PIXEL_ART_MIN_CELL - 1, -1):
+        corners = pixels[ys // cell * cell][:, xs // cell * cell]
+        if np.mean(np.max(np.abs(corners - sample), axis=2) <= 6) > 0.97:
+            return cell
+    return 0
+
+
+def native_pixel_art(image: Image.Image, cell: int) -> Image.Image:
+    """One texture pixel per mosaic cell, taken from the cell's centre where the colour is cleanest."""
+    pixels = np.asarray(image)
+    height, width, _ = pixels.shape
+    ys = np.minimum(np.arange(-(-height // cell)) * cell + cell // 2, height - 1)
+    xs = np.minimum(np.arange(-(-width // cell)) * cell + cell // 2, width - 1)
+    return Image.fromarray(pixels[ys][:, xs])
+
+
 def render_texture(painting: dict) -> Image.Image:
     with Image.open(painting["path"]) as source:
         image = ImageOps.exif_transpose(source).convert("RGB")
@@ -129,6 +167,9 @@ def render_texture(painting: dict) -> Image.Image:
     if not (1 <= width <= MAX_SIDE and 1 <= height <= MAX_SIDE):
         sys.exit(f"FEIL: {painting['file']}: størrelse {width}x{height} er utenfor 1-{MAX_SIDE} blokker.")
     painting["width"], painting["height"] = width, height
+    if painting.get("cell"):
+        # Minecraft draws paintings without smoothing, so each cell stays a sharp square.
+        return native_pixel_art(image, painting["cell"])
     # Stretch, never crop: nothing in the picture disappears, and it matches how Minecraft drew the old ones.
     return image.resize((width * PX_PER_BLOCK, height * PX_PER_BLOCK), Image.Resampling.LANCZOS)
 
