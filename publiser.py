@@ -11,6 +11,8 @@ import os
 import ssl
 import subprocess
 import sys
+import time
+import urllib.error
 import urllib.request
 import uuid
 from datetime import datetime
@@ -120,6 +122,28 @@ def build_and_push() -> None:
     sys.exit("Fikk ikke pushet etter tre forsøk.")
 
 
+RESTART_WARNING_SECONDS = 60
+
+
+def console(command: str) -> None:
+    panel("POST", "command", json.dumps({"command": command}).encode())
+
+
+def warn_players_and_wait() -> None:
+    """Give everyone online a minute to get somewhere safe before the restart kicks them."""
+    print(f"Varsler spillerne, restart om {RESTART_WARNING_SECONDS} sekunder ...")
+    try:
+        console('title @a times 10 80 20')
+        console('title @a subtitle {"text":"Nye malerier! Kom deg i trygghet.","color":"gray"}')
+        console(f'title @a title {{"text":"Restart om {RESTART_WARNING_SECONDS} sek","color":"gold"}}')
+        console(f"say Serveren restarter om {RESTART_WARNING_SECONDS} sekunder for nye malerier.")
+        time.sleep(RESTART_WARNING_SECONDS - 10)
+        console("say Restart om 10 sekunder.")
+        time.sleep(10)
+    except urllib.error.HTTPError:
+        print("  Fikk ikke sendt varsel (serveren er kanskje av). Restarter uansett.")
+
+
 def main() -> None:
     if not panel_key():
         sys.exit("Mangler .panel-nokkel. Lag en API-nøkkel i panelet (Account -> API Credentials) "
@@ -137,6 +161,7 @@ def main() -> None:
     upload_datapack()
     print("Oppdaterer server.properties ...")
     point_server_at(pack_url, pack_sha1)
+    warn_players_and_wait()
     print("Restarter serveren ...")
     panel("POST", "power", json.dumps({"signal": "restart"}).encode())
     print("\nPublisert. Serveren er oppe igjen om et halvt minutt.")

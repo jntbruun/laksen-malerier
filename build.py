@@ -47,6 +47,8 @@ DIST = ROOT / "dist"
 DATAPACK_ZIP = DIST / "laksen-malerier-datapack.zip"
 RESOURCE_PACK_ZIP = DIST / "laksen-ressurspakke.zip"
 
+# "Fra Stalheim (1842)", "Kysset (1907–1908)", "Vandrer over tåkehavet (ca. 1818)": shown after the artist.
+YEAR_SUFFIX = re.compile(r"^(?P<title>.*?)\s*\((?P<year>(?:ca\.\s*)?\d{4}(?:\s*[–-]\s*\d{2,4})?)\)$")
 SIZE_SUFFIX = re.compile(r"^(?P<title>.*?)\s*\(\s*(?P<w>\d+)\s*[xX×]\s*(?P<h>\d+)\s*\)$")
 
 
@@ -80,7 +82,12 @@ def collect_paintings() -> list[dict]:
         match = SIZE_SUFFIX.match(path.stem)
         title = (match["title"] if match else path.stem).strip()
         size = (int(match["w"]), int(match["h"])) if match else None
-        found.append({"path": path, "file": relative.as_posix(), "title": title, "author": author, "size": size})
+        year_match = YEAR_SUFFIX.match(title)
+        year = year_match["year"] if year_match else None
+        if year_match:
+            title = year_match["title"].strip()
+        found.append({"path": path, "file": relative.as_posix(), "title": title, "author": author,
+                      "year": year, "size": size})
     return found
 
 
@@ -276,8 +283,9 @@ def build_datapack(paintings: list[dict], old_variants: dict) -> None:
                 "height": p["height"],
                 "title": {"text": p["title"], "color": "yellow"},
             }
-            if p["author"]:
-                variant["author"] = {"text": p["author"], "color": "gray"}
+            byline = ", ".join(part for part in (p["author"], p["year"]) if part)
+            if byline:
+                variant["author"] = {"text": byline, "color": "gray"}
             namespace, path = split_id(p["id"])
             write_json(archive, f"data/{namespace}/painting_variant/{path}.json", variant)
             # Aliases: duplicate ids from the old datapacks. Registered so placed ones survive,
