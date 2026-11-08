@@ -1,0 +1,15 @@
+{
+  "schemaVersion": 1,
+  "id": "laksen_stonecutter",
+  "version": "1.0.0",
+  "name": "Laksen Stonecutter",
+  "description": "Stonecutteren hopper ikke lenger til toppen av lista når du tar ut et maleri.",
+  "authors": ["Laksen"],
+  "license": "MIT",
+  "environment": "client",
+  "mixins": ["laksen_stonecutter.mixins.json"],
+  "depends": {
+    "fabricloader": ">=0.19.0",
+    "minecraft": ">=26.3"
+  }
+}

@@ -7,7 +7,7 @@
   },
   {
     "id": "splotch_of_paint:colourful_feathers",
-    "file": "Adalbert Waagen/Hunting in the Alps (2x3).png",
+    "file": "Adalbert Waagen/Hunting in the Alps (1865) (2x3).png",
     "sha1": "2028de8ff489b2f72aeee8ddb264d66aae8611dc",
     "rute": [
       34,
@@ -59,7 +59,7 @@
   },
   {
     "id": "laksen:til_seters",
-    "file": "Adolph Tidemand/Til seters (3x4).png",
+    "file": "Adolph Tidemand/Til seters (1844) (3x4).png",
     "sha1": "82fcaca39048033c4d031dace055c58145cbf999",
     "rute": [
       34,
@@ -160,7 +160,7 @@
   },
   {
     "id": "splotch_of_paint:the_shroom",
-    "file": "Greg Beecham/Gladness of Heart (3x3).png",
+    "file": "Greg Beecham/Gladness of Heart (2012) (3x3).png",
     "sha1": "e1f2e019ace317168d6168150b39412d1155bd48",
     "rute": [
       34,
@@ -230,6 +230,16 @@
         "width": 4,
         "height": 3
       }
+    ]
+  },
+  {
+    "id": "minecraft:donkey_kong",
+    "file": "Hans Gude/Høyfjell (1857) (4x3).png",
+    "sha1": "905182ae11e9d43b89e5c75a80c7031fb29819c1",
+    "rute": [
+      34,
+      0,
+      0
     ]
   },
   {
@@ -358,7 +368,7 @@
   },
   {
     "id": "laksen:folkeliv_under_romsdalshorn",
-    "file": "Johan Fredrik Eckersberg/Folkeliv under Romsdalshorn (1x1).png",
+    "file": "Johan Fredrik Eckersberg/Folkeliv under Romsdalshorn (1860) (1x1).png",
     "sha1": "a330bdeaa9cdc0cca4b4863a1e036386cbacaf36",
     "rute": [
       34,
@@ -522,7 +532,7 @@
   },
   {
     "id": "splotch_of_paint:never_returning",
-    "file": "Norbertine von Bresslern-Roth/Snow leopard (3x3).png",
+    "file": "Norbertine von Bresslern-Roth/Snow leopard (1971) (3x3).png",
     "sha1": "220355bba45c773184905c42f17193f11eb1c38e",
     "rute": [
       34,
@@ -544,7 +554,7 @@
   },
   {
     "id": "laksen:spiel_im_wasser",
-    "file": "Norbertine von Bresslern-Roth/Spiel im Wasser (2x2).png",
+    "file": "Norbertine von Bresslern-Roth/Spiel im Wasser (1967) (2x2).png",
     "sha1": "3275c6972253ee854ba302a24f08636ef90d5905",
     "rute": [
       34,
@@ -615,6 +625,23 @@
     "rute": false
   },
   {
+    "id": "splotch_of_paint:on_the_bones_of_colossi",
+    "file": "Theodor Kittelsen/Der laa Soria Moria slot (1900) (4x3).png",
+    "sha1": "4d891fb86b236f10fe906696436175296f5f4983",
+    "rute": [
+      34,
+      0,
+      0
+    ],
+    "aliases": [
+      {
+        "id": "splotch_of_paint:restaurant_scenery",
+        "width": 3,
+        "height": 2
+      }
+    ]
+  },
+  {
     "id": "laksen:ekko",
     "file": "Theodor Kittelsen/Ekko (1888) (1x2).png",
     "sha1": "b0aea78f03837c6b842d06e344e7fe3b61c453d0",
@@ -675,25 +702,8 @@
     ]
   },
   {
-    "id": "splotch_of_paint:on_the_bones_of_colossi",
-    "file": "Theodor Kittelsen/Soria Moria slott (1900) (4x3).png",
-    "sha1": "4d891fb86b236f10fe906696436175296f5f4983",
-    "rute": [
-      34,
-      0,
-      0
-    ],
-    "aliases": [
-      {
-        "id": "splotch_of_paint:restaurant_scenery",
-        "width": 3,
-        "height": 2
-      }
-    ]
-  },
-  {
     "id": "splotch_of_paint:afternoon_dance",
-    "file": "Theodor Kittelsen/Tre ekorn i flukt (3x2).png",
+    "file": "Theodor Kittelsen/Tre ekorn i flukt (1900–1901) (3x2).png",
     "sha1": "85a883af4c0b4643f951873fa809f51e75864c35",
     "rute": [
       34,
@@ -703,7 +713,7 @@
   },
   {
     "id": "laksen:odegaard",
-    "file": "Theodor Kittelsen/Ødegård (3x2).png",
+    "file": "Theodor Kittelsen/Ødegård (1894–1896) (3x2).png",
     "sha1": "4b76453e3b6511c6712055ec8ec22d8144ca3111",
     "rute": [
       34,
@@ -722,16 +732,6 @@
     "file": "Ved kommuneskiltet (4x2).png",
     "sha1": "6efda1f7339e600f5a108e83155d9cd339b5d6ff",
     "rute": false
-  },
-  {
-    "id": "minecraft:donkey_kong",
-    "file": "Vidda (4x3).png",
-    "sha1": "905182ae11e9d43b89e5c75a80c7031fb29819c1",
-    "rute": [
-      34,
-      0,
-      0
-    ]
   },
   {
     "id": "minecraft:match",

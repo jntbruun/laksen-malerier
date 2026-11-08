@@ -1,0 +1,8 @@
+{
+  "required": true,
+  "minVersion": "0.8",
+  "package": "no.laksen.stonecutter.mixin",
+  "compatibilityLevel": "JAVA_25",
+  "client": ["StonecutterScreenMixin"],
+  "injectors": { "defaultRequire": 1 }
+}

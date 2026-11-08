@@ -61,3 +61,11 @@ Denne datapacken erstatter **Splotch of Paint** og **REPO Paintings DP**. De kan
 
 - Maleriene dere har byttet bilde på ligger i `malerier/` og beholder sine gamle ID-er (`splotch_of_paint:cozy_bay` osv.), så de som allerede henger, blir hengende. **Gi dem riktige navn ved å endre filnavnene.** Størrelsen i filnavnet må stå som den er; bygget stopper hvis den endres.
 - De andre ~230 maleriene fra de gamle pakkene ligger i `gamle-malerier.json`. De registreres fortsatt, så ingenting som henger forsvinner, men de er ikke med i stonecutteren eller blant tilfeldige malerier.
+
+## Klientmod: stonecutteren hopper ikke til toppen
+
+Vanilla ruller stonecutter-lista til toppen hver gang du tar ut et maleri. `klientmod/dist/laksen-stonecutter-1.0.0.jar` fikser det: lista blir stående, og den husker plassen selv om du tar ut det siste maleriet og legger inn et nytt.
+
+- Bare for klient (Fabric, Minecraft 26.3). Legg jar-fila i `.minecraft/mods`. Serveren trenger den ikke.
+- De som ikke har den, merker ingen forskjell.
+- Bygg på nytt med `klientmod/bygg.sh` (bruker Java fra Minecraft-launcheren, ingen Gradle).
