@@ -1,9 +1,9 @@
 {
   "schemaVersion": 1,
   "id": "laksen_stonecutter",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "name": "Laksen Stonecutter",
-  "description": "Stonecutteren hopper ikke lenger til toppen av lista når du tar ut et maleri.",
+  "description": "Søkefelt i stonecutteren, og lista hopper ikke lenger til toppen når du tar ut et maleri.",
   "authors": ["Laksen"],
   "license": "MIT",
   "environment": "client",
