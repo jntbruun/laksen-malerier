@@ -8,7 +8,7 @@
   {
     "id": "splotch_of_paint:colourful_feathers",
     "file": "Adalbert Waagen/Hunting in the Alps (1865) (2x3).png",
-    "sha1": "2028de8ff489b2f72aeee8ddb264d66aae8611dc",
+    "sha1": "440fbe0130765fbef527ee1023a237ecb3ebc209",
     "rute": [
       34,
       0,
@@ -18,7 +18,7 @@
   {
     "id": "laksen:bondeinterior_fra_skjonne",
     "file": "Adolph Tidemand/Bondeinteriør fra Skjønne (1848) (3x2).png",
-    "sha1": "5772805e6495ed5b5a205b67caa9b3e973a0869a",
+    "sha1": "c746ea68ca172a7e20a776c422550baa5b2f830b",
     "rute": [
       34,
       0,
@@ -38,7 +38,7 @@
   {
     "id": "splotch_of_paint:eastern_vistas",
     "file": "Adolph Tidemand/Norsk juleskik (1846) (3x3).png",
-    "sha1": "9525220a9ff65198ffe6b1f812dfd727fd82fe0c",
+    "sha1": "c0a85f0ea41bc38d5370d138560854922f77718d",
     "rute": [
       34,
       0,
@@ -60,7 +60,7 @@
   {
     "id": "laksen:til_seters",
     "file": "Adolph Tidemand/Til seters (1844) (3x4).png",
-    "sha1": "82fcaca39048033c4d031dace055c58145cbf999",
+    "sha1": "1fab862c52c894fca9c90fe000c605be26ca65a0",
     "rute": [
       34,
       0,
@@ -76,7 +76,7 @@
   {
     "id": "laksen:vandrer_over_taakehavet",
     "file": "Caspar David Friedrich/Vandrer over Tåkehavet (ca. 1817–1818) (1x2).png",
-    "sha1": "7947a691593d737932e194d064eef96931ac381b",
+    "sha1": "de69e7b7d649c94b82341a111d780f8c3510741a",
     "rute": [
       34,
       0,
@@ -86,7 +86,7 @@
   {
     "id": "laksen:arbeidere_paa_hjemvei",
     "file": "Edvard Munch/Arbeidere på hjemvei (1913–1914) (3x2).png",
-    "sha1": "25d47ab34f363bf2e3efae312b8b1f8ed18b19b4",
+    "sha1": "8232ec470049e7d0dd36b724313ec158b7e0b93b",
     "rute": [
       34,
       0,
@@ -96,13 +96,13 @@
   {
     "id": "laksen:ubudne_gjester",
     "file": "Edvard Munch/Ubudne Gjester (1932–1935) (1x1).png",
-    "sha1": "4bdcb4f5d75f4abaa296e10c0f7e2fcba7246dc1",
+    "sha1": "23476050a4163f227cd3b76c9e6758b32963d131",
     "rute": false
   },
   {
     "id": "laksen:ubudne_gjester_2",
     "file": "Edvard Munch/Ubudne Gjester (1932–1935) (3x2).png",
-    "sha1": "72a5274c786abf19051645838833f02dae06a960",
+    "sha1": "821d5c02ca2bbec29fbd0f8559fa1bf34652f6cf",
     "rute": [
       34,
       0,
@@ -112,7 +112,7 @@
   {
     "id": "laksen:la_femme_et_la_fleur",
     "file": "Fernand Léger/La Femme et la Fleur (1954) (1x1).png",
-    "sha1": "4d57fd670218f959fa47cc02a0c1fd1c1376e5f4",
+    "sha1": "b870ad2969a4a0a247fddad69e889cca28db6719",
     "rute": [
       34,
       4,
@@ -122,7 +122,7 @@
   {
     "id": "laksen:la_femme_et_la_fleur_2",
     "file": "Fernand Léger/La Femme et la Fleur (1954) (2x2).png",
-    "sha1": "8b4ca7c2100221c4cb3f81eb2158ab0d68a06a0e",
+    "sha1": "4d5c4f25da434f3f2aff7a3b633d53dbb065db0f",
     "rute": [
       34,
       0,
@@ -138,7 +138,7 @@
   {
     "id": "splotch_of_paint:lively_canopy",
     "file": "Francisco Goya/Heksesabbat (1797–1798) (3x3).png",
-    "sha1": "5624d1f49f579dc0f5a224707e68689806bb4b15",
+    "sha1": "98c20525d51a0e427ea25530618ca89d71f00911",
     "rute": [
       35,
       26,
@@ -161,7 +161,7 @@
   {
     "id": "splotch_of_paint:the_shroom",
     "file": "Greg Beecham/Gladness of Heart (2012) (3x3).png",
-    "sha1": "e1f2e019ace317168d6168150b39412d1155bd48",
+    "sha1": "699c0f22250143815e537561155e2301aa0c8b8e",
     "rute": [
       34,
       0,
@@ -178,7 +178,7 @@
   {
     "id": "repo_paintings:beautyful",
     "file": "Gustav Klimt/Kysset (1908–1909) (1x2).png",
-    "sha1": "d8cc6cff52cd92d567cccd9dc338174512e9d377",
+    "sha1": "23e5a980ec7ccc4ca5aa9da7e75d54f838388dd9",
     "rute": [
       34,
       0,
@@ -188,7 +188,7 @@
   {
     "id": "repo_paintings:dog",
     "file": "Gustav Klimt/Kysset (utsnitt) (1908–1909) (1x1).png",
-    "sha1": "4b6e4ee695fca9e9f6680d32a61cdf365d96f414",
+    "sha1": "028ce185d246be14d42bd908e0c22d9af09d5148",
     "rute": [
       34,
       0,
@@ -198,7 +198,7 @@
   {
     "id": "splotch_of_paint:house_away_from_sol",
     "file": "Hans Dahl/Siste stråler (3x2).png",
-    "sha1": "1112f828075db1f8d47cfba19ebc877e658d2347",
+    "sha1": "f5e82c89adb82d927ab3c95c63836e4a3a0099fb",
     "rute": [
       34,
       0,
@@ -208,7 +208,7 @@
   {
     "id": "splotch_of_paint:blooming_chorus_field",
     "file": "Hans Gude/Foss i Hallingdal (2x3).png",
-    "sha1": "8c9d0b73dddac0822ac728ef0559b8112482f513",
+    "sha1": "a28b5415c1cf7a590630b4f0fac5a263d5fe88c6",
     "rute": [
       34,
       0,
@@ -218,7 +218,7 @@
   {
     "id": "splotch_of_paint:frozen_bones",
     "file": "Hans Gude/Fra Vossevangen (1860) (3x2).png",
-    "sha1": "aa7f91ef8f71d377257b625fcbeb876c849aae20",
+    "sha1": "e938accc591a1aaec1bb3132344f95078b88d9bd",
     "rute": [
       34,
       0,
@@ -235,7 +235,7 @@
   {
     "id": "minecraft:donkey_kong",
     "file": "Hans Gude/Høyfjell (1857) (4x3).png",
-    "sha1": "905182ae11e9d43b89e5c75a80c7031fb29819c1",
+    "sha1": "ac9f112a567d9cc1570d482615efaed0f3957dbc",
     "rute": [
       34,
       0,
@@ -245,7 +245,7 @@
   {
     "id": "laksen:landskap_med_buskap_og_foss",
     "file": "Hans Gude/Landskap med buskap og foss (1852) (1x1).png",
-    "sha1": "c2f1c054d77777075006b39959b7dae1b2c1459f",
+    "sha1": "8ac00f3a600c9f787cb225493b2a8cd90e564a0f",
     "rute": [
       34,
       0,
@@ -255,7 +255,7 @@
   {
     "id": "laksen:landskap_med_buskap_og_foss_2",
     "file": "Hans Gude/Landskap med buskap og foss (1852) (2x2).png",
-    "sha1": "6838b0de793f9b933ad3f052fc42d054099a9e0b",
+    "sha1": "5c134765ffe9e20571ab2d9690d7f7a30c7deb68",
     "rute": [
       34,
       0,
@@ -265,7 +265,7 @@
   {
     "id": "laksen:tessefossen_i_vaagaa_i_middagsbelysning",
     "file": "Hans Gude/Tessefossen i Vågå i Middagsbelysning (1848) (2x2).png",
-    "sha1": "fd52d77ddefb4e2e4911b2149f96d66ac8b4af56",
+    "sha1": "e3db4efd2b16cdb90c553c7b555410b26f0aa170",
     "rute": [
       34,
       0,
@@ -275,11 +275,21 @@
   {
     "id": "laksen:vinterettermiddag",
     "file": "Hans Gude/Vinterettermiddag (1847) (3x2).png",
-    "sha1": "efef51207146eeb3239eb6c64baf8bbbbcb02299",
+    "sha1": "7944095f954b502772704cae274f4feef280cab6",
     "rute": [
       34,
       0,
       0
+    ]
+  },
+  {
+    "id": "laksen:unghesten",
+    "file": "Harald Kihle/Unghesten (1948) (1x1).png",
+    "sha1": "e8b01421dc0db0dd2c41a13c5f44b9bb32abb2e6",
+    "rute": [
+      34,
+      1,
+      23
     ]
   },
   {
@@ -291,7 +301,7 @@
   {
     "id": "splotch_of_paint:fall_comes_for_the_ruins",
     "file": "Huset som flyr (4x2).png",
-    "sha1": "ba99d83de9e2d58bf3282dde80a7394291520580",
+    "sha1": "640882103604beada4ab9995b976540ab8ebe0c7",
     "rute": false
   },
   {
@@ -303,7 +313,7 @@
   {
     "id": "laksen:ikke_gjor_det",
     "file": "IKKE GJØR DET!!! (3x2).png",
-    "sha1": "716085327e2639b89222ab786958c32871f66248",
+    "sha1": "4d8533bfac0c580c2734a525cd21389532361ae1",
     "rute": [
       34,
       0,
@@ -313,7 +323,7 @@
   {
     "id": "splotch_of_paint:distant_rings",
     "file": "Ildhest (1x1).png",
-    "sha1": "6ba227b658e771a98ee8382d83f89a460e182df5",
+    "sha1": "670260a9d5531aaefccee65c2d3a45a89c15f0e2",
     "rute": [
       34,
       0,
@@ -323,7 +333,7 @@
   {
     "id": "splotch_of_paint:alluring_allurestems",
     "file": "Ildhest (2x3).png",
-    "sha1": "21f07b3f08727090e2361c4d9db93fe4f6490606",
+    "sha1": "3869713c1d03cb5992efa305a33c952c629bdc53",
     "rute": [
       34,
       0,
@@ -339,7 +349,7 @@
   {
     "id": "repo_paintings:anger",
     "file": "Jacques-Louis David/Marats død (1793) (1x2).png",
-    "sha1": "c7c194bf7af13f3966bbd3f67137cebe9e58d83a",
+    "sha1": "665a0848a0200f0f160f3c9164aeded73686655e",
     "rute": [
       42,
       0,
@@ -349,7 +359,7 @@
   {
     "id": "repo_paintings:beige_abstraction",
     "file": "Jean-Léon Gérôme/Pollice verso (1872) (2x1).png",
-    "sha1": "0867b5a9d72e01cd5a384cc8cb43b129b5d90342",
+    "sha1": "61370d3abc1c1d1d1b090dd2088a50e6027608c5",
     "rute": [
       34,
       0,
@@ -359,7 +369,7 @@
   {
     "id": "splotch_of_paint:challenging_the_storm",
     "file": "Johan Christian Dahl/Fra Stalheim (1842) (3x2).png",
-    "sha1": "e158e9eafd994c78ecbd611ab9cc3e6d9bafd77a",
+    "sha1": "cdd6e715f26a668f860f3652181562d25e93667d",
     "rute": [
       34,
       0,
@@ -369,7 +379,7 @@
   {
     "id": "laksen:folkeliv_under_romsdalshorn",
     "file": "Johan Fredrik Eckersberg/Folkeliv under Romsdalshorn (1860) (1x1).png",
-    "sha1": "a330bdeaa9cdc0cca4b4863a1e036386cbacaf36",
+    "sha1": "8a43f2ba811680966b4b713d13e9bd9407e0678a",
     "rute": [
       34,
       0,
@@ -379,7 +389,37 @@
   {
     "id": "laksen:romsdalshorn",
     "file": "Johan Fredrik Eckersberg/Romsdalshorn (3x2).png",
-    "sha1": "1cd5402d67dc68e2d367ce2120c92a46853db493",
+    "sha1": "7c7bd5848391ab674ed6871bca95d8fd9c09e166",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:mot_valentine_1x1",
+    "file": "Jonathan Bruun/Mot Valentine (1899) (1x1).png",
+    "sha1": "0d93726a9cebec001ae98a89c31cab6569645e04",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:mot_valentine",
+    "file": "Jonathan Bruun/Mot Valentine (1899) (3x2).png",
+    "sha1": "51077b0d1c527d59e12e70cb7428416cda7e1b01",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:mot_valentine_2",
+    "file": "Jonathan Bruun/Mot Valentine 2 (1899) (1x1).png",
+    "sha1": "0d22a0ff31a2aecc3e88319dc9e19f5a9f4448fd",
     "rute": [
       34,
       0,
@@ -389,25 +429,25 @@
   {
     "id": "splotch_of_paint:an_evening_lightshow",
     "file": "Jungelstien (4x2).png",
-    "sha1": "4abb0c0e82ad7604382f86a94d523524d8677ee4",
+    "sha1": "848e8fca6722ed40dc09a73004f09ba26eeba7b0",
     "rute": false
   },
   {
     "id": "splotch_of_paint:vibrant_jungle_life",
     "file": "Kart over Laksen (3x2).png",
-    "sha1": "fa870eef0eac4a8a1423ae5d705576525db1d334",
+    "sha1": "3ebb06fce90557cb0191f48e59448a6cd5a4c084",
     "rute": false
   },
   {
     "id": "splotch_of_paint:warped_petals",
     "file": "Kart over øya (2x3).png",
-    "sha1": "cc6836c8d69ef2d8ed3ad759f60c194298a1e25b",
+    "sha1": "a82d276c48bb559bfa481a49b819d3fce94698e6",
     "rute": false
   },
   {
     "id": "laksen:untitled",
     "file": "Keith Haring/Untitled (1x1).png",
-    "sha1": "b404e1484f6aa0a0cba9a27317911d7556324e6b",
+    "sha1": "b1af7c241a253a134cfab546f8e3c6e378201918",
     "rute": [
       34,
       0,
@@ -417,7 +457,7 @@
   {
     "id": "laksen:untitled_2",
     "file": "Keith Haring/Untitled (2x2).png",
-    "sha1": "35547df662c4a8180c2bff0d37b1b6bea729d2d5",
+    "sha1": "5b53ffa36a56d02f7a3e8f36bf4ebd65636a463a",
     "rute": [
       34,
       0,
@@ -427,13 +467,13 @@
   {
     "id": "splotch_of_paint:sulphuric_hollows",
     "file": "Kirken om natten (4x2).png",
-    "sha1": "b30fbdd8e4a5c30adebbf16b51c427af9016d703",
+    "sha1": "c7244cdae67851aebdcc2d5387d013f70dfc83d1",
     "rute": false
   },
   {
     "id": "repo_paintings:euphoria",
     "file": "Kommunegrensen (4x2).png",
-    "sha1": "420942593e78ff6f726674c813c771f23f29feff",
+    "sha1": "db1297e6954b8136c9b43a2be99f5c69e5c51b49",
     "rute": false
   },
   {
@@ -445,7 +485,7 @@
   {
     "id": "splotch_of_paint:weeping_by_the_river",
     "file": "Laksen fra lufta (4x2).png",
-    "sha1": "96c56657b4ef3874d67017159e5defc83a873c87",
+    "sha1": "73c337d83c50439b6847ab88770e31298824ef84",
     "rute": false
   },
   {
@@ -487,7 +527,17 @@
   {
     "id": "laksen:laavesvale",
     "file": "Låvesvale (1x1).png",
-    "sha1": "b554036a01ea5982c52417e03ce8bcc78c35c247",
+    "sha1": "1a6c009bcfe6b6c163ac0cb514f94e22f2ca5a9c",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:mann_med_fru",
+    "file": "Mann med fru (1916) (1x1).png",
+    "sha1": "6951e22ffd31a49fde0aa00948549dabbbb371e2",
     "rute": [
       34,
       0,
@@ -531,9 +581,19 @@
     ]
   },
   {
+    "id": "laksen:morgan",
+    "file": "Morgan (1899) (1x1).png",
+    "sha1": "a0ff16ab0b5c635398516ae00c0da39b604b5354",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
     "id": "splotch_of_paint:never_returning",
     "file": "Norbertine von Bresslern-Roth/Snow leopard (1971) (3x3).png",
-    "sha1": "220355bba45c773184905c42f17193f11eb1c38e",
+    "sha1": "3d82a6cbfcd80a27cdfedad8b75756f6aa37a7b6",
     "rute": [
       34,
       0,
@@ -555,7 +615,17 @@
   {
     "id": "laksen:spiel_im_wasser",
     "file": "Norbertine von Bresslern-Roth/Spiel im Wasser (1967) (2x2).png",
-    "sha1": "3275c6972253ee854ba302a24f08636ef90d5905",
+    "sha1": "e859e22c8926914e54e9a0e9917c734fc5df5840",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:for_du_gaar",
+    "file": "Odd Nordstoga/Før du går (2026) (1x1).png",
+    "sha1": "2a9dfa67c34cf497d557a017b0dbe1b33ddd54b0",
     "rute": [
       34,
       0,
@@ -565,7 +635,37 @@
   {
     "id": "splotch_of_paint:woodpecker_bird",
     "file": "Paul Baudry/Charlotte Corday (1860) (2x3).png",
-    "sha1": "506c7ea217acc3bd2f3809571e5e4e51c1103c0a",
+    "sha1": "1aa329723434e3a5d9b54f0035c63629b1a79489",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:den_sorte_dod",
+    "file": "Peter Nicolai Arbo/Den sorte død (3x2).png",
+    "sha1": "89b4a001556c2d8430c2295d92cca19f7db404dc",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:den_siste_utmark",
+    "file": "Petter Landsem-Krogstad/Den siste utmark (1899) (1x1).png",
+    "sha1": "d8c817fc9679b667b3e97b651c919a6ef57d9484",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:plato_og_sokrates",
+    "file": "Plato og Sokrates (3x2).png",
+    "sha1": "f5c3a6f09bb90f76f6f184a2034680cd68e441c1",
     "rute": [
       34,
       0,
@@ -575,7 +675,7 @@
   {
     "id": "splotch_of_paint:starry_barrens",
     "file": "Portrett (3x2).png",
-    "sha1": "a13a91e98beb80efd6ae410e7b329a51d75e4a51",
+    "sha1": "95674915cde9740f54a8bf1cc34d6c333304ce26",
     "rute": [
       34,
       0,
@@ -597,37 +697,47 @@
   {
     "id": "splotch_of_paint:flower_of_the_wild",
     "file": "Snøleopard (2x3).png",
-    "sha1": "2fa99bdbdc64e6b7bbb2ce39494d6ed9b6997d90",
+    "sha1": "eb2a935c0250d94b9acee1bd3d95d1836cff49fa",
     "rute": false
   },
   {
     "id": "splotch_of_paint:old_road",
     "file": "Solnedgang fra tårnet (4x2).png",
-    "sha1": "df8f6fe114c8780aae95c0134cb79865025bc0d6",
+    "sha1": "28cbc1f77fc23e489eb58daf5264ea8479c6d207",
     "rute": false
   },
   {
     "id": "splotch_of_paint:sandy_monolith",
     "file": "Soloppgang over byen (4x2).png",
-    "sha1": "1778995bfcaa5d973ba42dda77958855a4306bdd",
+    "sha1": "d5a90fee59943ee7703bcfde077749c33aa221e3",
     "rute": false
   },
   {
     "id": "repo_paintings:burning_swamp",
     "file": "Tempelet i høstskogen (4x2).png",
-    "sha1": "9884c5d7ff16d46bbb9a1eca39a2378e89f9ffce",
+    "sha1": "fcd8e3c05240c5510a22bfd11d7d9b77eb30d6bf",
     "rute": false
   },
   {
     "id": "minecraft:fighters",
     "file": "Tempelet ved obelisken (4x2).png",
-    "sha1": "f02c7303e5f798339890e865e0cf9ece94691456",
+    "sha1": "38d9c4817b3fe0ea5dc6d7c1263158318893c0bd",
     "rute": false
+  },
+  {
+    "id": "laksen:the_tennessee_walker",
+    "file": "The Tennessee Walker (1899) (1x1).png",
+    "sha1": "2db3eb16b2bbf2384460ef6d65fa25f1bba712af",
+    "rute": [
+      34,
+      0,
+      0
+    ]
   },
   {
     "id": "splotch_of_paint:on_the_bones_of_colossi",
     "file": "Theodor Kittelsen/Der laa Soria Moria slot (1900) (4x3).png",
-    "sha1": "4d891fb86b236f10fe906696436175296f5f4983",
+    "sha1": "a9eff55fda5aab8b35b19637d86d730f0a6eb377",
     "rute": [
       34,
       0,
@@ -644,7 +754,7 @@
   {
     "id": "laksen:ekko",
     "file": "Theodor Kittelsen/Ekko (1888) (1x2).png",
-    "sha1": "b0aea78f03837c6b842d06e344e7fe3b61c453d0",
+    "sha1": "36fd926fe9d6a0f41d1aa2daea722ed0e565e143",
     "rute": [
       34,
       0,
@@ -654,13 +764,33 @@
   {
     "id": "laksen:ekko_2",
     "file": "Theodor Kittelsen/Ekko (1888) (2x3).png",
-    "sha1": "456308c48414a6dfa72fea6c63451f6f8349f944",
+    "sha1": "5a85d99ab41c05c83ff1fb6b6d9db7391b71d7d7",
     "rute": false
   },
   {
     "id": "splotch_of_paint:cozy_bay",
     "file": "Theodor Kittelsen/Gutt på hvit hest (1909) (3x2).png",
-    "sha1": "7ade10557d7bda71d7571a024273cbeb0189b84c",
+    "sha1": "13ad7c4dbf70bb975066cc8332bf18ae52e8ca9e",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:ja_nu_synes_jeg_jeg_skimter_noget",
+    "file": "Theodor Kittelsen/Ja, nu synes jeg jeg skimter noget (1907) (1x2).png",
+    "sha1": "c0bd7e5ef20686771f0a7e743f2f2922673f2a1c",
+    "rute": [
+      34,
+      24,
+      0
+    ]
+  },
+  {
+    "id": "laksen:kirke_i_sno",
+    "file": "Theodor Kittelsen/Kirke i snø (1907) (1x2).png",
+    "sha1": "81758867eeca35da0d54300de577ed435c18e73a",
     "rute": [
       34,
       0,
@@ -670,7 +800,7 @@
   {
     "id": "splotch_of_paint:islands_in_the_sky",
     "file": "Theodor Kittelsen/Kvitebjørn kong Valemon (1912) (2x3).png",
-    "sha1": "4357d4f9c3ee3fb2d17cec4378159a94faf80d2f",
+    "sha1": "ac976974268eda7a2e678a0bc6c5ec18e420172f",
     "rute": [
       34,
       0,
@@ -687,7 +817,7 @@
   {
     "id": "splotch_of_paint:in_the_heart_of_the_savanna",
     "file": "Theodor Kittelsen/Langt, langt borte saa han noget lyse og glitre (1900) (3x2).png",
-    "sha1": "753ee6edb46247e072cb7e55537454dba55cea99",
+    "sha1": "a04130601acec10aaaa69447f39e1130a17734e8",
     "rute": [
       34,
       0,
@@ -702,9 +832,29 @@
     ]
   },
   {
+    "id": "laksen:skogtroll",
+    "file": "Theodor Kittelsen/Skogtroll (1891) (3x2).png",
+    "sha1": "1435314639d888a03141b1d9f7acbcc8c2651969",
+    "rute": [
+      34,
+      0,
+      0
+    ]
+  },
+  {
+    "id": "laksen:til_den_gronne_ridder",
+    "file": "Theodor Kittelsen/Til den grønne ridder (1871) (1x2).png",
+    "sha1": "a71641c54cf839d09ee86e0f224b9775fd55c676",
+    "rute": [
+      34,
+      8,
+      0
+    ]
+  },
+  {
     "id": "splotch_of_paint:afternoon_dance",
     "file": "Theodor Kittelsen/Tre ekorn i flukt (1900–1901) (3x2).png",
-    "sha1": "85a883af4c0b4643f951873fa809f51e75864c35",
+    "sha1": "8843ef37b76f895f9242d4536a217f94e19777e2",
     "rute": [
       34,
       0,
@@ -714,7 +864,7 @@
   {
     "id": "laksen:odegaard",
     "file": "Theodor Kittelsen/Ødegård (1894–1896) (3x2).png",
-    "sha1": "4b76453e3b6511c6712055ec8ec22d8144ca3111",
+    "sha1": "78fe9188dc1f8be6abe6d10f7775150575abd490",
     "rute": [
       34,
       0,
@@ -728,9 +878,21 @@
     "rute": false
   },
   {
+    "id": "laksen:unge_saul_2x1",
+    "file": "Unge Saul (2x1).png",
+    "sha1": "51bcdda5c4db248d57fba9fa574afa96597296e7",
+    "rute": false
+  },
+  {
+    "id": "laksen:unge_saul",
+    "file": "Unge Saul (4x2).png",
+    "sha1": "514e7f3510916a4ae1e1efe20d6420ecb5a8e3e0",
+    "rute": false
+  },
+  {
     "id": "minecraft:changing",
     "file": "Ved kommuneskiltet (4x2).png",
-    "sha1": "6efda1f7339e600f5a108e83155d9cd339b5d6ff",
+    "sha1": "6a49e1a9589727c8babcd4c43a4db2da58c51cc3",
     "rute": false
   },
   {
