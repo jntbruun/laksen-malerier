@@ -644,7 +644,7 @@
   },
   {
     "id": "laksen:den_sorte_dod",
-    "file": "Peter Nicolai Arbo/Den sorte død (3x2).png",
+    "file": "Peter Nicolai Arbo/Den sorte død (1800-tallet) (3x2).png",
     "sha1": "89b4a001556c2d8430c2295d92cca19f7db404dc",
     "rute": [
       34,
@@ -898,7 +898,7 @@
   {
     "id": "minecraft:match",
     "file": "Welcome to Laksen (2x2).png",
-    "sha1": "0b8d860f27ab890a72a49d2268a3ba3999383528",
+    "sha1": "2baef084d198ff10e8884c01dc509fe2b49d63d9",
     "rute": false
   }
 ]

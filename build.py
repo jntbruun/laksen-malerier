@@ -47,8 +47,8 @@ DIST = ROOT / "dist"
 DATAPACK_ZIP = DIST / "laksen-malerier-datapack.zip"
 RESOURCE_PACK_ZIP = DIST / "laksen-ressurspakke.zip"
 
-# "Fra Stalheim (1842)", "Kysset (1907–1908)", "Vandrer over tåkehavet (ca. 1818)": shown after the artist.
-YEAR_SUFFIX = re.compile(r"^(?P<title>.*?)\s*\((?P<year>(?:ca\.\s*)?\d{4}(?:\s*[–-]\s*\d{2,4})?)\)$")
+# "Fra Stalheim (1842)", "Kysset (1907–1908)", "Vandrer (ca. 1818)", "Den sorte død (1800-tallet)": shown after the artist.
+YEAR_SUFFIX = re.compile(r"^(?P<title>.*?)\s*\((?P<year>(?:ca\.\s*)?\d{4}(?:\s*[–-]\s*\d{2,4}|-tallet)?)\)$")
 SIZE_SUFFIX = re.compile(r"^(?P<title>.*?)\s*\(\s*(?P<w>\d+)\s*[xX×]\s*(?P<h>\d+)\s*\)$")
 
 
