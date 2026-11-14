@@ -85,14 +85,14 @@ Ny pakke: pakk ut mappa her med et nummer foran navnet. Bare `assets/` tas med.
 
 ## Snø i stedet for regn (`ekstra-datapacks/laksen-sno.zip`)
 
-En ressurspakke kan bare bytte bildet av regnet, og regn faller mye fortere enn snø. Denne datapacken gjør det til ekte snø: den setter temperaturen i 26 landbiomer under 0,15, så nedbøren blir snø i vanlig snøfart. Hav, elver og grotter er urørt.
+En ressurspakke kan bare bytte bildet av regnet, og regn faller mye fortere enn snø. Denne datapacken gjør det til ekte snø i alle biomer i oververdenen: den setter temperaturen under 0,15 (og skrur på nedbør i ørken, savanne og badlands), så nedbøren blir snø i vanlig snøfart. Biomer som allerede snødde, er urørt.
 
 Bivirkninger: vann på land kan fryse til is når det snør, nye chunks får snø og is fra start, og det legger seg ett snølag (`/gamerule max_snow_accumulation_height 0` stopper det). Fjernes ved å ta datapacken ut og restarte; is og snø som allerede ligger blir liggende.
 
 ### Ingen is (`paperplugin/`)
 
 Serveren kjører **Paper**, ikke Fabric, så Fabric-mods i `mods/` lastes ikke. `paperplugin/dist/laksen-sno-paper-1.0.0.jar` ligger i `plugins/` og
-- stopper at vær fryser vann til is i de 26 biomene snø-datapacken gjør kalde (`config.yml`, samme liste som datapackens `laksen:ingen_frysing`),
+- stopper at vær fryser vann til is i de 46 biomene snø-datapacken gjør kalde (`config.yml`, samme liste som datapackens `laksen:ingen_frysing`),
 - smelter is som allerede er laget når en chunk lastes: alltid i nye chunks, og i eksisterende chunks frem til `smelt-vaeris-til` (21.11.2026). Bare is som er øverste blokk og ligger på eller ved vann; bygget is røres ikke.
 
 Snølag er slått av med `/gamerule max_snow_accumulation_height 0`. Bygg pluginen på nytt med `paperplugin/bygg.sh` (legg `paper-api`, Adventure m.fl. fra serverens `libraries/` i `paperplugin/lib/`).
