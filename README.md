@@ -77,7 +77,14 @@ Pakker i `ressurspakker/` legges oppå Laksen-basen i nummerrekkefølge. Høyere
 1. Better Leaves 9.6
 2. Winter Pack
 3. Snowy Better Leaves Patch (krever Continuity eller OptiFine for snø bare på toppen av trærne)
+4. Laksen snøtillegg: snø på asalea, blomstrende asalea, pale oak, poppel (rød/oransje/gul) og mose. Lages av `verktoy/lag_snotillegg.py`; kjør skriptet på nytt hvis pakkene under oppdateres.
 
 Ny pakke: pakk ut mappa her med et nummer foran navnet. Bare `assets/` tas med.
 
 **Endret i Winter Pack:** `colormap/grass.png` og `colormap/foliage.png` var helt gjennomsiktige. Minecraft 26.3 bruker gjennomsiktigheten i farge, så gress, busk, bregne, løv og andre fargede items ble usynlige i inventar og hånd. De er nå hvite og ugjennomsiktige: samme snøhvite utseende, men itemene synes.
+
+## Snø i stedet for regn (`ekstra-datapacks/laksen-sno.zip`)
+
+En ressurspakke kan bare bytte bildet av regnet, og regn faller mye fortere enn snø. Denne datapacken gjør det til ekte snø: den setter temperaturen i 26 landbiomer under 0,15, så nedbøren blir snø i vanlig snøfart. Hav, elver og grotter er urørt.
+
+Bivirkninger: vann på land kan fryse til is når det snør, nye chunks får snø og is fra start, og det legger seg ett snølag (`/gamerule max_snow_accumulation_height 0` stopper det). Fjernes ved å ta datapacken ut og restarte; is og snø som allerede ligger blir liggende.

@@ -1,0 +1,9 @@
+{
+  "parent": "snowyleaves:block/leaves1",
+  "textures": {
+    "side": "minecraft:block/orange_poplar_leaves_snowy_side",
+    "top": "minecraft:block/orange_poplar_leaves_snowy_top",
+    "bottom": "minecraft:block/orange_poplar_leaves_snowy_bottom",
+    "bush": "minecraft:block/orange_poplar_leaves_snowy_bush"
+  }
+}

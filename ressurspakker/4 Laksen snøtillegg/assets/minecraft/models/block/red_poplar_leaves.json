@@ -1,0 +1,8 @@
+{
+  "parent": "snowyleaves:block/leaves_cube",
+  "textures": {
+    "side": "minecraft:block/red_poplar_leaves_snowy_side",
+    "top": "minecraft:block/red_poplar_leaves_snowy_top",
+    "bottom": "minecraft:block/red_poplar_leaves_snowy_bottom"
+  }
+}

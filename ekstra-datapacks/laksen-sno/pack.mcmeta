@@ -1,0 +1,7 @@
+{
+  "pack": {
+    "description": "Laksen: sn\u00f8 i stedet for regn p\u00e5 land",
+    "min_format": 121,
+    "max_format": 999
+  }
+}

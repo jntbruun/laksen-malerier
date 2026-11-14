@@ -1,0 +1,1 @@
+Laget av verktoy/lag_snotillegg.py. Ikke rediger for hånd; endre skriptet og kjør det på nytt.
