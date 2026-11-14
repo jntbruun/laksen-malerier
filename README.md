@@ -79,3 +79,5 @@ Pakker i `ressurspakker/` legges oppå Laksen-basen i nummerrekkefølge. Høyere
 3. Snowy Better Leaves Patch (krever Continuity eller OptiFine for snø bare på toppen av trærne)
 
 Ny pakke: pakk ut mappa her med et nummer foran navnet. Bare `assets/` tas med.
+
+**Endret i Winter Pack:** `colormap/grass.png` og `colormap/foliage.png` var helt gjennomsiktige. Minecraft 26.3 bruker gjennomsiktigheten i farge, så gress, busk, bregne, løv og andre fargede items ble usynlige i inventar og hånd. De er nå hvite og ugjennomsiktige: samme snøhvite utseende, men itemene synes.
