@@ -39,6 +39,8 @@ IMAGE_SUFFIXES = {".png", ".jpg", ".jpeg", ".webp", ".gif", ".bmp", ".tif", ".ti
 ROOT = Path(__file__).resolve().parent
 PAINTINGS_DIR = ROOT / "malerier"
 BASE_RESOURCE_PACK = ROOT / "base-resourcepack"
+# Extra packs laid over the base, lowest number first: "1 Better Leaves", "2 Winter Pack", ...
+EXTRA_RESOURCE_PACKS = ROOT / "ressurspakker"
 LOCK_FILE = ROOT / "malerier.lock.json"
 # Every variant the old datapacks (Splotch of Paint, REPO Paintings) registered. Kept so paintings
 # already hanging in the world survive after those datapacks are removed.
@@ -315,11 +317,26 @@ def build_datapack(paintings: list[dict], old_variants: dict) -> None:
                    {"replace": ONLY_OWN_PAINTINGS_WHEN_RANDOM, "values": ids})
 
 
+def layered_base_files() -> dict[str, bytes]:
+    """The Laksen base pack with every pack in ressurspakker/ laid on top, in name order
+    (a higher number wins, like higher up in Minecraft's pack list). Only assets/ come from
+    the extra packs; pack.mcmeta and pack.png stay the base pack's. Paintings go on top of all."""
+    files: dict[str, bytes] = {}
+    for path in sorted(BASE_RESOURCE_PACK.rglob("*")):
+        if path.is_file() and path.name != ".DS_Store":
+            files[path.relative_to(BASE_RESOURCE_PACK).as_posix()] = path.read_bytes()
+    layers = sorted(p for p in EXTRA_RESOURCE_PACKS.iterdir() if p.is_dir()) if EXTRA_RESOURCE_PACKS.exists() else []
+    for layer in layers:
+        for path in sorted((layer / "assets").rglob("*")):
+            if path.is_file() and path.name != ".DS_Store":
+                files[path.relative_to(layer).as_posix()] = path.read_bytes()
+    return files
+
+
 def build_resource_pack(paintings: list[dict], textures: dict[str, Image.Image]) -> None:
     with zipfile.ZipFile(RESOURCE_PACK_ZIP, "w", zipfile.ZIP_DEFLATED) as archive:
-        for path in sorted(BASE_RESOURCE_PACK.rglob("*")):
-            if path.is_file() and path.name != ".DS_Store":
-                write_file(archive, path.relative_to(BASE_RESOURCE_PACK).as_posix(), path.read_bytes())
+        for name, data in sorted(layered_base_files().items()):
+            write_file(archive, name, data)
         for painting_id, texture in sorted(textures.items()):
             namespace, path = split_id(painting_id)
             write_file(archive, f"assets/{namespace}/textures/painting/{path}.png", png_bytes(texture))

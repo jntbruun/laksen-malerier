@@ -9,6 +9,7 @@ on:
       - "malerier.lock.json"
       - "gamle-malerier.json"
       - "base-resourcepack/**"
+      - "ressurspakker/**"
       - "build.py"
       - "publiser.py"
   workflow_dispatch:

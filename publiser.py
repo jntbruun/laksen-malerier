@@ -106,8 +106,8 @@ def build_and_push() -> None:
     for attempt in range(3):
         git("pull", "--rebase", "--autostash", "-q")
         build.main()
-        git("add", "-A", "malerier", "gamle-malerier.json", "base-resourcepack", *GENERATED)
-        if git("status", "--porcelain", "--", "malerier", "base-resourcepack", *GENERATED):
+        git("add", "-A", "malerier", "gamle-malerier.json", "base-resourcepack", "ressurspakker", *GENERATED)
+        if git("status", "--porcelain", "--", "malerier", "base-resourcepack", "ressurspakker", *GENERATED):
             git("commit", "-m", "Oppdater malerier")
         print("Pusher til GitHub ...")
         try:

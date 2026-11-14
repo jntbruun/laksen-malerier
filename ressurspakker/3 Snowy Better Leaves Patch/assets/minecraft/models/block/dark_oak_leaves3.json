@@ -1,0 +1,9 @@
+{
+  "parent": "snowyleaves:block/leaves3",
+  "textures": {
+    "side": "minecraft:block/dark_oak_leaves_snowy_side",
+    "top": "minecraft:block/dark_oak_leaves_snowy_top",
+    "bottom": "minecraft:block/dark_oak_leaves_snowy_bottom",
+    "bush": "minecraft:block/dark_oak_leaves_snowy_bush"
+  }
+}

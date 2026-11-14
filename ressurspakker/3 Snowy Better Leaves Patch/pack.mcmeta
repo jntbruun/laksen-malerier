@@ -1,0 +1,12 @@
+{
+  "pack": {
+    "pack_format": 46,
+    "supported_formats": [
+      46,
+      255
+    ],
+    "min_format": 46,
+    "max_format": 255,
+    "description": "§bSnowy §2Better Leaves§r\n§7Winter Pack + Better Leaves patch"
+  }
+}

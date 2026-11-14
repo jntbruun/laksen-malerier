@@ -69,3 +69,13 @@ Vanilla ruller stonecutter-lista til toppen hver gang du tar ut et maleri. `klie
 - Bare for klient (Fabric, Minecraft 26.3). Legg jar-fila i `.minecraft/mods`. Serveren trenger den ikke.
 - De som ikke har den, merker ingen forskjell.
 - Bygg på nytt med `klientmod/bygg.sh` (bruker Java fra Minecraft-launcheren, ingen Gradle).
+
+## Flere ressurspakker
+
+Pakker i `ressurspakker/` legges oppå Laksen-basen i nummerrekkefølge. Høyere nummer vinner, som høyere opp i Minecrafts pakkeliste. Maleriene ligger alltid øverst.
+
+1. Better Leaves 9.6
+2. Winter Pack
+3. Snowy Better Leaves Patch (krever Continuity eller OptiFine for snø bare på toppen av trærne)
+
+Ny pakke: pakk ut mappa her med et nummer foran navnet. Bare `assets/` tas med.

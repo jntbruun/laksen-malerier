@@ -1,0 +1,9 @@
+{
+  "parent": "snowyleaves:block/leaves4",
+  "textures": {
+    "side": "minecraft:block/mangrove_leaves_snowy_side",
+    "top": "minecraft:block/mangrove_leaves_snowy_top",
+    "bottom": "minecraft:block/mangrove_leaves_snowy_bottom",
+    "bush": "minecraft:block/mangrove_leaves_snowy_bush"
+  }
+}
