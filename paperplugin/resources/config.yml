@@ -1,0 +1,32 @@
+# Biomer der vær ikke får vann til å fryse. Samme biomer som laksen-sno-datapacken gjør kalde.
+ingen-frysing:
+  - minecraft:bamboo_jungle
+  - minecraft:beach
+  - minecraft:birch_forest
+  - minecraft:cherry_grove
+  - minecraft:dappled_forest
+  - minecraft:dark_forest
+  - minecraft:flower_forest
+  - minecraft:forest
+  - minecraft:jungle
+  - minecraft:mangrove_swamp
+  - minecraft:meadow
+  - minecraft:mushroom_fields
+  - minecraft:old_growth_birch_forest
+  - minecraft:old_growth_pine_taiga
+  - minecraft:old_growth_spruce_taiga
+  - minecraft:pale_garden
+  - minecraft:plains
+  - minecraft:sparse_jungle
+  - minecraft:stony_peaks
+  - minecraft:stony_shore
+  - minecraft:sunflower_plains
+  - minecraft:swamp
+  - minecraft:taiga
+  - minecraft:windswept_forest
+  - minecraft:windswept_gravelly_hills
+  - minecraft:windswept_hills
+
+# Smelter is som været allerede har laget, når en eksisterende chunk lastes (nye chunks ryddes alltid).
+# og ligger på eller ved vann. Slås av etter denne datoen (åååå-mm-dd), så bygget is aldri røres.
+smelt-vaeris-til: '2026-11-21'

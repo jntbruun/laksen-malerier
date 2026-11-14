@@ -193,9 +193,7 @@
       "minecraft:patch_red_shrub",
       "minecraft:patch_grass_forest"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ],
   "has_precipitation": true,
   "temperature": 0.0

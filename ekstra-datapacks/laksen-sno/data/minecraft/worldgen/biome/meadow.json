@@ -181,9 +181,7 @@
       "minecraft:trees_meadow",
       "minecraft:wildflowers_meadow"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ],
   "has_precipitation": true,
   "temperature": 0.0

@@ -109,9 +109,7 @@
       "minecraft:patch_sugar_cane",
       "minecraft:patch_firefly_bush_near_water"
     ],
-    [
-      "minecraft:freeze_top_layer"
-    ]
+    []
   ],
   "has_precipitation": true,
   "temperature": 0.0

@@ -1,0 +1,6 @@
+name: LaksenSno
+version: 1.0.0
+main: no.laksen.sno.LaksenSno
+api-version: '26.3'
+description: Vann fryser ikke der laksen-sno gjør regn om til snø.
+authors: [Laksen]
